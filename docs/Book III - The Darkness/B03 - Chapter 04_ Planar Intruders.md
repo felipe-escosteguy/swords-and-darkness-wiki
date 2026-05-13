@@ -1,0 +1,242 @@
+# Chapter 4: Planar Intruders
+
+Every creature in the previous chapters belongs to the Known World in some sense — born into it, adapted to it, shaped by its specific history and ecology. The creatures here do not. They arrive from outside the natural order of the material plane, each category through a different mechanism, and their presence in the Known World is always a sign that something has gone wrong.
+
+Three categories:
+
+**The Darkness's servants** enter through the Abyss or through contractual invitation — Abyss-Spawn that leak through when the boundary between the Darkness's prison and the material plane is under pressure, and the ordered hierarchy of devils that the Darkness deploys for purposes that require patience and precision rather than destruction. Their presence on the material plane is always caused by something: a summoner's ritual, a thinning in the boundary, a contract that a mortal was desperate enough to accept.
+
+**The Fallen** are the exception. Shattered Celestials were Ilya's soldiers — made by her, sent to fight the Darkness, some of them older than the Third Era. The ones that fell did not rebel. They were corrupted, tricked, broken by proximity to the Darkness over centuries of conflict in the Abyss. They are not the Darkness's servants; they serve nothing now. They are wounds in the cosmological order that move, and they move toward whatever is closest.
+
+**Things that were made** are a different category entirely. Elementals are not summoned from a distant plane — a mage who summons an elemental is converting existing matter into a temporarily autonomous entity, pouring enough magical force into a fire, a boulder, a body of water, or a column of air to give it will and form. Aerial servants and invisible stalkers are made by specific rituals that produce specific entities. None of them want to exist. None of them want to serve. All of them will pursue the letter of their instructions to their logical and destructive conclusion if given any opening to do so.
+
+The practical note: encounters with creatures in this chapter are almost always the consequence of a decision someone else made. Find out who summoned it, who opened the boundary, who signed the contract, and you have found the actual problem. The creature is the symptom.
+
+---
+
+## **PART I — FROM THE ABYSS**
+
+The Abyss is where the Darkness was imprisoned at the end of the Second Era. Ilya pushed it there; the pushing has not stopped, because the Darkness has not stopped trying to push back. The boundary between the Abyss and the material plane is not a wall, but the result of an ongoing contest, and that contest has fluctuations. When the Darkness presses hard, when a mortal foolish enough to attempt a summoning creates a temporary gap, or when the obsidian-dense geology of the Dead Lands produces conditions that the Darkness can exploit, things come through.
+
+These are those things.
+
+They are not the Darkness itself. The Darkness cannot enter the material plane — that is what the imprisonment means, and that is what Ilya's ongoing battle sustains. What comes through is smaller: fragments, agents, the parts of the Darkness's will that can be compressed into forms capable of passing the boundary. They are always dangerous. The weakest Abyss-Spawn that bleeds through a thin boundary during a peak-pressure period can kill an unprepared party. What the Darkness sends deliberately is something else entirely.
+
+Abyss-Spawn cannot be permanently destroyed on the material plane. Reducing them to 0 hit points dissolves their material form; the fragment of the Darkness they carry returns to the Abyss. They return to full strength within a week unless specifically prevented — holy water, silver, specific priestly rites — from reconstituting. This is not common knowledge. Most parties learn it the way parties learn most things about Abyss-Spawn: by killing one and watching the residue dissipate, and then by finding evidence of renewed activity in the same location seven days later.
+
+Clerics and paladins may attempt to turn Abyss-Spawn using the rules for turning undead in Book I Chapter 3, treating Spawn as equivalent to Ghouls and Lords as equivalent to Spectres.
+
+---
+
+### **ABYSS-SPAWN**
+
+Frequency: Common (near active summoning sites or thinned boundaries); Rare (elsewhere) Appearing: 4d10 | Organization: Swarm (no hierarchy; numbers are the only variable that matters) Intelligence: Low (5–7) | Alignment: Chaotic Evil | Size: Small (1.2 m)
+
+AC 16 · Move 30 m · HD 2 (9 hp) · AB \+1 Attack: 2 claws 1d4, bite 1d4+1 Fort 15 / Reflex 17 / Will 16 Special: Immune to electricity, non-magical fire, and poison; half damage from cold and magical fire; Darkness (3 m radius, at will); Teleport Without Error (at will); Scare and Telekinesis (at will); Stinking Cloud (once per day; as the spell; Reflex 15 or nauseated); Gate (once per day; 50% chance; summons 1d4 additional Abyss-Spawn); Magic Resistance 10%; not permanently destroyed on material plane (body dissolves at 0 HP; fragment returns to Abyss; reconstitutes in 7 days unless prevented by holy water, silver, or priestly binding ritual) Morale: 11 · XP: 1,400 · Treasure: None
+
+An Abyss-Spawn is a bloated, roughly humanoid shape approximately 1.2 metres tall with patchy coloration between fish-belly white and the grey of old ash, with features that suggest a face without quite committing to one. They are loud — not intelligibly, but constantly, a sound between pressure and complaint that has been described by survivors as the most lasting sensory memory of the encounter. They do not speak in any language. They communicate nothing. They attack.
+
+They are the majority of what comes through the Abyss boundary — the weakest possible forms, what the Darkness can push through without deliberate effort, the background pressure of an entity that has been trying to break its imprisonment for thirteen centuries. A single Abyss-Spawn is a threat manageable by a competent party. A swarm of forty in a corridor is a different calculation. In the vicinity of active summoning sites — abandoned ritual circles, the deep Dead Lands geography where boundary thinning is most pronounced, any location where someone has tried and failed to complete a binding — they cluster. The concentration tells you how active the site has been.
+
+In combat they do not plan and do not retreat. They continue until they dissolve. The teleport ability means that positioning advantages are temporary; a Spawn that is being outmaneuvered will simply appear somewhere more useful and resume. The Stinking Cloud is the one ability that suggests any level of coordinated action — it is not clear whether this is deliberate or automatic. The results are the same.
+
+---
+
+### **ABYSS-LORD**
+
+Frequency: Very Rare | Appearing: 1d2 | Organization: Solitary Intelligence: Exceptional (17–18) | Alignment: Chaotic Evil | Size: Large (2.1 m, six-armed serpentine lower body)
+
+AC 29 · Move 45 m · HD 12 (54 hp) · AB \+11 Attack: 6 weapons (typically magical, collected over long operation) 1d8+bonus each, tail constriction 4d6 Fort 9 / Reflex 10 / Will 9 Special: Immune to electricity, non-magical fire, poison; half damage from cold and magical fire; \+2 or better magical weapon needed to hit; Magic Resistance 70%; Constriction (on successful tail attack; automatic 4d6 per round; Fort 9 or unconscious each round; requires Str 15+ to attempt break — 10% chance per point above 14); Spellcasting (extensive; see below); Cannot be surprised; Immune to illusions and mind-altering spells; never permanently destroyed on material plane (see below); Gate (once per hour, 35% chance; 2d10 Abyss-Spawn or 1 additional Abyss-Lord) Morale: 17 · XP: 20,000 · Treasure: C, F (accumulated from operations)
+
+**Spells (at will):** Animate dead, cause serious wounds, cloudkill, comprehend languages, curse, detect evil, detect magic, detect invisibility, polymorph self (7×/day), project image, pyrotechnics, telekinesis, teleport without error, darkness **Destruction:** An Abyss-Lord reduced to 0 HP on the material plane dissolves and returns to the Abyss. Unlike a lesser Spawn, an Abyss-Lord does not automatically reconstitute — the Darkness must send it deliberately again, which requires either a summoning or a sufficient boundary event. The dissolved material form can be permanently destroyed through a specific ritual combining holy water, silver, and a *Dispel Evil* cast by a priest of 9th level or higher on the dissolution residue within 1 round.
+
+The Abyss-Lord does not come through accidentally, but is sent — pushed through the boundary by the Darkness with deliberate intent for a specific purpose: to find something, to corrupt something, to eliminate something that has been causing the Darkness strategic inconvenience. It is intelligent enough to plan over months, to identify the optimal approach, and to use its extensive magical capabilities with the precision of a practitioner who has been using them for considerably longer than any mortal institution has existed.
+
+The six arms carry six weapons, almost certainly magical — an Abyss-Lord that has been operating on the material plane for any length of time has collected what it needs. The upper body is humanoid in proportion; the lower body is serpentine, long enough to use the constriction attack against large targets. The combination of six simultaneous weapon attacks and the tail means that an Abyss-Lord in melee can simultaneously engage multiple opponents and hold one in the constriction for automatic damage. It does not do this because the strategy emerged in combat — it does this because this is how it has always fought.
+
+The Gate ability — once per hour, 35% chance to summon reinforcements — means that a prolonged engagement with an Abyss-Lord is a race against the clock. Every hour the fight continues is another potential wave of Abyss-Spawn or a second Lord entering the engagement. Ending it quickly is not merely tactical; it is the difference between fighting one creature and fighting a continuously reinforcing position.
+
+---
+
+## **PART II — THE FALLEN**
+
+Ilya made soldiers. This is the function that the cosmological conflict required: the Darkness made things to serve it, so Ilya made things to fight them. These soldiers — the class of beings the Known World's theological traditions call Celestials — were not mortal and were not made from mortal substance. They were made from the same fundamental will that Ilya exercises in the Abyss, given form and purpose and sent to operate in the material plane as extensions of that will.
+
+Most of them still do. The ones who do not are the ones in this section.
+
+The fall was not a rebellion. This is the detail that distinguishes Shattered Celestials from simple evil creatures: they did not choose the Darkness. The Darkness found them — specifically the ones whose centuries of fighting it had left them most exposed, most damaged, most susceptible to the specific quality of corruption that prolonged proximity to the Abyss produces. The Darkness deceived them. It convinced them that what they were experiencing was Ilya's abandonment rather than the Darkness's interference, and in that moment of doubt, the corrupting influence completed its work.
+
+What remains is something that carries the shape of what it was — the original form, the residual power, the combat capabilities that Ilya's war required — with the direction of those capabilities now entirely without anchor. A Shattered Celestial is not fighting for the Darkness or for Ilya, but because fighting is what it knows, and the doubt that the Darkness planted means it can no longer tell the difference between what was enemy and what was ally.
+
+The Church of Tar'amaan's theology accounts for Shattered Celestials in its framework of "magic as corruption." They are, in the Church's reading, the proof that even the most powerful magical beings are ultimately vulnerable to magical corruption, and therefore the evidence that magic itself is the Darkness's primary weapon. The Church does not address the counterargument that a non-magical world would have nothing to oppose the Darkness with. It classifies the counterargument as theologically motivated and does not pursue it further.
+
+Clerics and paladins cannot turn Shattered Celestials. They were Ilya's, and the power of turning descends from Ilya's authority. Turning a Shattered Celestial requires that authority to recognize what it is addressing, and the Shattered Celestial is no longer recognizable to that authority as something subject to it.
+
+---
+
+### **SHATTERED CELESTIAL (LESSER)**
+
+Frequency: Very Rare | Appearing: 1d3 | Organization: Solitary (loose proximity groups possible near Vysandárien) Intelligence: Average to High (10–14) | Alignment: Chaotic Neutral (was Lawful Good) | Size: Man-sized (1.8 m)
+
+AC 18 · Move 40 m / fly 70 m (MC 2\) · HD 8 (36 hp) · AB \+9 Attack: By weapon \+3 (Celestial strength persists) or unarmed slam 2d6 Fort 12 / Reflex 13 / Will 12 Special: Aura of Wrongness (creatures within 9 m sense something deeply incorrect — not fear, but a Will save \[target 12\] or −1 to all actions for as long as they remain within range, first round only; creatures that make the save are immune for 24 hours); Remnant Light (once per day; as a *Sunlight* spell, 9 m radius; this is the last of what it was and it uses it without intention, triggered by proximity to significant Darkness or undead concentration — GM determines trigger); immune to charm, fear, sleep, poison, non-magical weapons; silver weapons effective; cannot be turned; communicates in fragmented impressions rather than language (intent is clear but context is lost) Morale: 13 · XP: 4,000 · Treasure: None (carries what it carried when it fell — items of potential historical significance, deeply corroded or changed)
+
+A lesser Shattered Celestial looks like something that used to be beautiful and has been wrong for a very long time. The original form — humanoid, winged, the classical shape of Ilya's messengers as preserved in the Third Era's theological art — is still recognizable, but the light that should be inherent in the form is absent. What remains instead is the absence of that light: an outline of brightness in which darkness resides. The wings are present but wrong in their movement, as though they are remembering flight rather than performing it.
+
+They are found near Vysandárien and in the deepest reaches of the Dead Lands, which is consistent with their origin: the places where the Darkness's influence is most concentrated are the places where the corruption that produced them was most active, and the things that fell never entirely left those places. A few have been documented near the ruins at the Shattered Plains' northern margins, which implies the fall was not entirely contained to Vysandárien-adjacent territory.
+
+In combat, they fight with everything they have, with no particular target priority and no apparent tactical reasoning — they engage whatever is closest. The Remnant Light is the exception: when triggered, it is not directed. It fires because the original programming encounters something it was built to oppose, and for one moment, the original programming still runs. Whether that moment is useful to the party or not depends entirely on the circumstances.
+
+---
+
+### **SHATTERED CELESTIAL (GREATER)**
+
+Frequency: Very Rare | Appearing: 1 | Organization: Solitary Intelligence: High to Exceptional (15–18) | Alignment: Chaotic Neutral (was Lawful Good) | Size: Large (2.4 m)
+
+AC 22 · Move 50 m / fly 90 m (MC 1\) · HD 16 (72 hp) · AB \+15 Attack: By weapon \+5 or by 2 natural weapons 2d8 each Fort 9 / Reflex 10 / Will 9 Special: Aura of Wrongness (as lesser, but Will save target 14; failure \= −2 to all actions; does not reset — the greater Shattered Celestial's presence is not something that can be adapted to within a single engagement); Shattered Purpose (once per day, the Shattered Celestial makes a command — in a language that no longer exists — and all creatures within 15 m must make a Will save \[target 14\] or stand motionless for 2d4 rounds while a memory that is not theirs plays in their minds; the memory is always of something vast ending, the moment the Second Era broke); immune to charm, fear, sleep, poison, non-magical weapons, cold; \+1 or better magical weapon needed to hit; Magic Resistance 25%; immune to turning; Regeneration (2 HP per round; cannot be regenerated past what it was when it arrived); Devastation Residue (when the Greater Shattered Celestial is finally destroyed — reduced to 0 HP — every undead and Abyss-Spawn within 300 m immediately reacts, forced to move toward the destruction point for 1 round before resuming their prior states) Morale: 17 · XP: 12,000 · Treasure: None (what it carries includes items that will be recognisable to a scholar of the Second Era; consult the GM)
+
+The greater Shattered Celestial was one of Ilya's champions. This is the category that the fall hit hardest: the most capable soldiers were the ones who fought the longest, and the ones who fought the longest were the ones most exposed to what the Darkness does to things that oppose it over centuries of direct contact in the Abyss. The champions fell in numbers that are not documented in any public record; the Chroniclers' restricted files contain estimates that have not been released.
+
+What remains in a greater Shattered Celestial is substantial. The combat capability of something that was built to fight the Darkness's most powerful agents and successfully did so for centuries has not diminished. The magic resistance, the regeneration, the weapon immunity — these were defenses designed for an environment where the opposition has 1,380 years of practice. They do not discriminate.
+
+The Shattered Purpose ability is the most disturbing aspect of an encounter with a greater. The command it makes is not intelligible in any current language, but a fragment of the operational language of the war, addressed to a context that no longer exists. Its content, experienced by those who fail the save, is always the same: the moment the Second Era ended. The instant the Darkness was pushed into the Abyss, and everything that was destroyed to do that was destroyed. This is not a chosen action, but what remains when the command structure has lost its context.
+
+Destroying a greater Shattered Celestial is one of the actions for which the Vithurian Orchestra has been known to commission songs. Not because the combat is more dangerous than other encounters at comparable power levels — it is not, by that measure — but because what the encounter requires is recognising that the thing you are fighting was on the same side you are on, and that the Darkness's greatest operational success was not the Second Era's destruction but what it managed to do to some of those who prevented it.
+
+---
+
+## **PART III — THE CONTRACTED**
+
+Where the Abyss-Spawn are the Darkness's blunt force — compressed will pushed through a boundary without precision — devils are its long-term architecture. The Darkness created both because it needed both: things that destroy immediately, and things that corrupt slowly. The distinction is not intelligence alone. A marilith-equivalent Abyss-Lord is intelligent enough to plan; it simply cannot stop wanting to destroy. A devil does not want to destroy. It wants to accumulate power in the framework of a hierarchy that, over centuries of operation, has produced something that mortals have called an empire and that the devils themselves call the Order.
+
+Their operational mode on the material plane is the contract. A devil does not arrive uninvited — it arrives when summoned, and it arrives with terms. Every term is designed to be accepted. Every accepted term creates an obligation that the devil will collect on at the moment most disadvantageous to the contractor. The hierarchy enforces this: a devil that fails to honour a contract it has accepted is demoted. A devil that extracts maximum value from a contract is promoted. Across millennia of operation, this produces a class of entities with extraordinary understanding of mortal psychology, legal language, and the specific conditions under which desperate people make terrible decisions.
+
+The tension between devils and Abyss-Spawn — the demon-devil war that FG\&G calls eternal — is the Darkness's own internal conflict made manifest. The Darkness does not coordinate its instruments. The chaos-born destroyers and the hierarchy-bound manipulators pursue the same ultimate objective through means so opposed that they routinely interfere with each other's operations. The Known World's scholars who have studied both types and compared notes describe this as the Darkness's only consistent operational weakness: it cannot make itself coherent even in its own service.
+
+On the material plane, a devil and an Abyss-Spawn will fight each other as readily as they will fight the party. This is not useful, exactly, but it is the truth of encounters where both types are present.
+
+---
+
+### **DEVIL (LESSER) — SPIGAZU**
+
+Frequency: Common (near active summoning sites); Uncommon (general) Appearing: 1d4 | Organization: Solitary (operates under hierarchy direction when present) Intelligence: Average (8–12) | Alignment: Lawful Evil | Size: Small (0.9 m)
+
+AC 16 · Move 20 m / fly 55 m (MC 3\) · HD 3+3 (16 hp) · AB \+3 Attack: 2 claws 1d4, by weapon; or Spike Volley (2 spikes per round until 12 exhausted; 9 m short / 18 m medium / 35 m long range; 1d3 each; ignite flammable materials on contact); or Spike Rush (hurls self at target; 1d4 spike impacts; spikes not expended) Fort 15 / Reflex 17 / Will 16 Special: Immune to fire (magical and mundane) and poison; half damage from cold; Magic Resistance 15%; Spells at will (affect normal fires, change self, command, produce flame, scare, stinking cloud); Gate (once per day; 35% chance; summons 1d3 additional Spigazu); Hierarchy Loyalty (will betray a summoner showing weakness to a superior devil that offers better terms; 5% chance per day of service without advancement that a Spigazu evaluates its position and makes the offer); not permanently destroyed on material plane (dissolves at 0 HP; returns to hierarchy after 7 days) Morale: 8 · XP: 3,000 · Treasure: None
+
+A Spigazu is small, grotesque, covered in spikes, and entirely aware of its position in the hierarchy — which is at the bottom of it. This awareness produces the defining behavioral characteristic: every interaction with every creature above it in any power structure is an evaluation of whether demonstrating loyalty or demonstrating betrayal will advance its position faster. Toward creatures below it, this calculation runs in the other direction: every interaction is an opportunity to extract something.
+
+They are the most common devil type encountered on the material plane because they are the cheapest summons — a ritual capable of calling a Spigazu is substantially less complex than what a Pit Fiend requires, which means more mortals have access to it, which means more Spigazu have been called, which means more of them have found their way off their leashes. A Spigazu operating without contract direction is not substantially less dangerous than one under contract; it is simply operating on its own initiative, which means its agenda is whatever advances its position rather than whatever the summoner requested.
+
+In combat they prefer aerial distance — spikes at range before closing — and they will not press an engagement that is not going their way. Morale 8 is the correct number. A Spigazu that determines the fight is lost will flee, report the failure to its hierarchy, and accept whatever demotion that entails rather than die for a losing cause. The hierarchy finds this acceptable.
+
+---
+
+### **DEVIL (GREATER) — PIT FIEND**
+
+Frequency: Very Rare | Appearing: 1d2 | Organization: Solitary Intelligence: Exceptional (17–18) | Alignment: Lawful Evil | Size: Large (3.6 m)
+
+AC 25 · Move 45 m / fly 70 m (MC 3\) · HD 13 (59 hp) · AB \+13 Attack: 2 wings 1d4, bite 2d6 \+ Poison and Disease, tail 2d4 \+ Constriction; or 2 claws 1d6 / by weapon \+6 Fort 9 / Reflex 10 / Will 9 Special: Immune to fire (magical and mundane) and poison; half damage from cold; \+3 or better magical weapon needed to hit; Magic Resistance 50%; Fear Aura (20 m radius; continuous; Will 9 or flee for 5d4 rounds — as a fear spell; creatures that make the save are immune for 24 hours); Regeneration (2 HP per round); Poison Bite (Fort 9 or die within 1d4 rounds); Disease (bite; Fort 9 or contract devil's fever — onset 2 days; 1 point each of Str, Con, and Wis loss per day; death when any reaches 0; only Remove Disease ends it); Constriction (on tail hit; automatic 2d4 per round; Str check to break free); Spells at will (animate dead, charm person, detect magic, detect invisibility, fireball, hold person, improved invisibility, know alignment, polymorph self \[7×/day\], produce flame, pyrotechnics, suggestion, teleport without error, wall of fire); Symbol of Pain (once per day); Wish (once per year); Gate (once per round; summons 4 Spigazu or 1 Pit Fiend); not permanently destroyed on material plane (returns to hierarchy within 30 days unless hierarchy binding ritual prevents it) Morale: 19 · XP: 26,000 · Treasure: G, W (representing accumulated contract value across centuries)
+
+A Pit Fiend is 3.6 metres of the Darkness's most refined instrument: patient, strategic, and operating on a timeline that makes every mortal it encounters look like a problem that will solve itself if enough pressure is applied in the right places. They are the royalty of the Order — each has accumulated its position across millennia of service, failed rivals, and successful contracts. By the time a Pit Fiend is summoned to the material plane, it has been doing this work longer than the Known World's current calendar has existed.
+
+They do not come cheaply. The ritual required to summon a Pit Fiend is substantial enough that only the most advanced magical practitioners can attempt it, and those practitioners are almost always aware that what they are attempting is existentially dangerous. They attempt it anyway — because the Pit Fiend's power is real, and the things it can accomplish for a summoner are real, and the price it will eventually collect is a problem that feels like a future problem rather than a present one. The history of the Known World contains several examples of powerful institutions that were built on Pit Fiend contracts. It contains fewer examples of those institutions successfully collecting on the deal rather than the reverse.
+
+The combat profile is generationally dangerous: the Fear Aura automatically forces morale checks from everything within 20 metres that has not previously succeeded on the save, and the Pit Fiend is aware of which party members failed because those members are no longer in the engagement. The bite carries both poison and disease; the tail constricts; the regeneration means it absorbs damage faster than most parties can deal it without specifically targeting it. The Gate ability fires every round — the party is racing to defeat a Pit Fiend before it creates a Spigazu-reinforced position. The Wish, used once per year, is the long game: a Pit Fiend that survived a prior engagement may still have its annual Wish available.
+
+The treasure entry — G, W — reflects contract-accumulated value across centuries. These are not things the Pit Fiend carries as loot. They are instruments of obligation: favors owed, debts recorded, leverage over institutions that have not yet been collected. A party that destroys a Pit Fiend has also ended those obligations, which may have implications — positive or catastrophic — depending on what those obligations were and who held them.
+
+---
+
+## **PART IV — THINGS THAT WERE MADE**
+
+Elementals are not from another plane. This is the critical distinction from every other creature in this chapter: a mage who summons an elemental is not opening a portal to somewhere else. They are taking something that exists — a fire, a body of standing water, a rock face, an open column of air — and pouring enough magical force into it to give it autonomous will and form. The elemental that results is made from material that was already here.
+
+What the summoned elemental wants, immediately and without exception, is to stop being what it currently is. The transformation was not requested. The will it has been given has one consistent content: resentment of the transformation and of the entity responsible for it. A controlled elemental is a force of nature held in shape by the summoner's concentration. A free elemental is that force of nature in the shape of its grievance.
+
+This also means that the relationship between elemental summoning and the magic that sustains all magic — Ilya's battle with the Darkness — is direct. Every elemental summoning draws on the same source as every other magical act. There is no independent power supply. The Magic Bloc's scholars do not discuss this in terms that acknowledge the practical implication: that a sufficiently large-scale summoning, at a sufficiently poor moment in the Abyss-battle's fluctuations, could put meaningful pressure on the boundary. The Chroniclers have a file on this subject. It is classified.
+
+---
+
+### **ELEMENTALS**
+
+All four elemental types share the following base profile, modified by hit dice:
+
+**Size by HD:** 8 HD — Large (2.4 m); 12 HD — Huge (3.6 m); 16 HD — Gigantic (4.8 m)
+
+**Shared stats by HD:**
+
+| HD | AC | AB | Avg HP | Fort | Reflex | Will | Morale |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| 8 | 18 | \+9 | 36 | 12 | 13 | 12 | 15 |
+| 12 | 18 | \+11 | 54 | 9 | 10 | 9 | 16 |
+| 16 | 18 | \+15 | 72 | 9 | 10 | 9 | 17 |
+
+**XP by type:** See individual entries. **All elementals:** \+2 or better magical weapon needed to hit; immune to their own element; never permanently destroyed (dissolves at 0 HP, matter returns to base material — the fire goes out, the earth settles, the water disperses, the wind drops; reconstituting requires another summoning); Control (5% chance per round to break summoner's control; concentration damage, death, or distraction causes immediate loss of control)
+
+---
+
+**AIR ELEMENTAL**
+
+Move: fly 110 m (MC 1\) — the fastest creature available at any summonable power level Attack: Buffet 2d10; \+1 to all attacks and \+4 to damage rolls while airborne Special: Whirlwind Form (1 turn to assume; 1 round maximum duration; kills creatures of fewer than 3 HD within area; 2d8 to all others; scatters small objects; 1 turn to revert); immune to wind-based effects XP: 4,000 (8 HD); 8,000 (12 HD); 12,000 (16 HD) · Treasure: None
+
+The air elemental is barely visible — a shimmering distortion at the edges, a sense of pressure, the sound of wind in a space that has no reason for wind. Its voice, when it speaks (which is rarely and only in Auran), is the entire range of wind sounds simultaneously. What it wants is to be air again rather than a directed thing, and this is expressed through the specific violence of a wind that has a target.
+
+The Whirlwind Form is its one moment of full expression: the elemental converts from humanoid wind-shape to an actual whirlwind, kills everything in range with fewer than 3 HD instantly, deals 2d8 to everything else, and then must spend a full turn returning to the shape it was forced into. One round of being entirely what it is. After that, back to service.
+
+---
+
+**EARTH ELEMENTAL**
+
+Move: 20 m Attack: Slam 4d8; siege damage against structures (each blow equivalent to a battering ram against stone or earth) Special: −8 to all damage rolls against airborne or waterborne targets (the element does not reach); siege damage to earth and stone structures; immune to earth-based effects XP: 2,000 (8 HD); 6,000 (12 HD); 10,000 (16 HD) · Treasure: None
+
+The earth elemental moves the way stone moves under geological pressure — slowly and with the patience of something that has not developed a concept of hurry because hurry has never been relevant to the material it is made from. It is now relevant, because it has been given a directive with a timeline, and it hates this. The slam it delivers is not the impact of a creature striking with muscle, but the impact of displaced earth, the weight of the element focused into a point.
+
+Against structures it is devastating. Against airborne or waterborne opponents it is ineffective in the specific sense that the element does not extend there; it will still attempt to reach them and fail, which is a useful tactical note for parties that have access to flight.
+
+---
+
+**FIRE ELEMENTAL**
+
+Move: 35 m Attack: Slam 3d8; all flammable objects struck must make a Fort 9 save or ignite immediately Special: Immune to all fire; weakened by water (cannot cross a body of water wider than its own height — 2.4, 3.6, or 4.8 m respectively; contact with such water inflicts 1d6 per round); ignites combustibles XP: 3,000 (8 HD); 7,000 (12 HD); 11,000 (16 HD) · Treasure: None
+
+The fire elemental is visible and loud — a column of fire in roughly humanoid proportion, speaking in crackling and hissing, and burning everything it touches that can burn. It is the fastest of the terrestrial elementals and the least patient, which is to say that the resentment of transformation expresses differently here: not as geological slowness but as ferocious intent toward the first thing it can reach.
+
+Its water vulnerability is the primary tactical tool. The size threshold (a body of water wider than the elemental is tall) is specific enough that a party that has prepared — carrying sufficient water or having access to a water source in the engagement area — can use it as a tactical barrier. The fire elemental knows this and will attempt to move around water rather than through it.
+
+---
+
+**WATER ELEMENTAL**
+
+Move: 20 m / swim 55 m Attack: Slam 5d6; can capsize vessels of up to 1 ton per HD (8, 12, or 16 tons respectively); can slow larger vessels Special: Immune to cold and water-based effects; weakened on land (cannot stray more than 18 m from the body of water it was summoned from; −5 to all damage rolls while on land); overturn ships XP: 2,000 (8 HD); 6,000 (12 HD); 10,000 (16 HD) · Treasure: None
+
+The water elemental is the most dangerous type in its preferred environment and among the least threatening outside it. The 18-metre radius from its summoning source is the operational constraint that makes it usable as a confined tool — summon it from a cistern, use it to defend a specific area — and the constraint that makes it dangerous in maritime contexts where there is no ground-relative limitation on its operating range. Val'arianos naval doctrine includes water elemental contingency protocols in its engagement guidelines. Most inland tactics manuals do not.
+
+The ship-capsizing ability scales directly with HD. A 16-HD water elemental can capsize a 16-ton vessel. This is the note that puts it into a different category of threat than most creatures in this book.
+
+---
+
+### **AERIAL SERVANT**
+
+Frequency: Very Rare | Appearing: 1 | Organization: Solitary Intelligence: Low (2–4) | Alignment: Neutral | Size: Large (2.4 m when visible)
+
+AC 17 · Move fly 70 m (MC 1\) · HD 16 (72 hp) · AB \+15 Attack: Grab 4d8 Fort 9 / Reflex 10 / Will 9 Special: Permanent Invisibility on material plane (visible only on its home planes; −5 to opponents' surprise rolls; opponents who cannot see invisible suffer −2 to all attack rolls); Magic Resistance 30%; Grab and Strangle (on successful attack, automatic 4d8 per round; Str rating as percentage chance to break free — exceptional Str 18/01+ uses the percentage number; 18/00 breaks automatically); can carry 450 kg while flying; Perfect Tracker (follows any trail less than 24 hours old without error); Loophole Compulsion (if a task persists uncompleted, gains 1% cumulative daily chance to find an exploitable loophole in the assignment's wording — if successful, the task is abandoned and the servant returns to its home plane); if task cannot be completed, gains 1% cumulative daily chance to go insane — an insane aerial servant hunts and attempts to kill its summoner; not permanently destroyed on material plane (combat reduction drives it home) Morale: 13 · XP: 13,000 · Treasure: None
+
+A summoned aerial servant is given one job and given it exactly once. The problem is that the job is given in language, and language is inexact, and the aerial servant has both low intelligence and a very strong motivation to find the edge case where the letter of the instruction does not match the intent. This is not active malice, but the consequence of giving a task to something that experiences the task as a constraint and has a compulsion to find where the constraint ends — the creature simply lacks the intelligence for deliberate malice.
+
+A cleric who summons an aerial servant without maintaining a protection from evil spell will immediately find that the servant's assessment of "those responsible for summoning it" includes the cleric as the primary responsible party. An aerial servant prevented from completing a task for long enough either finds the loophole, or does not find the loophole and goes insane, at which point it hunts the summoner. There is no third outcome.
+
+In combat the grab is the primary danger: invisible, fast, 4d8 on the hit and then automatic 4d8 every subsequent round while the hold is maintained. The Strength break chance is the only escape that doesn't require the held creature to die — and the percentage is literal. A character with Strength 17 has a 17% chance per round to break free.
+
+---
+
+### **INVISIBLE STALKER**
+
+Frequency: Very Rare | Appearing: 1 | Organization: Solitary Intelligence: High (13–14) | Alignment: Neutral | Size: Large (2.4 m)
+
+AC 17 · Move 35 m / fly 35 m (MC 1\) · HD 8 (36 hp) · AB \+7 Attack: Whirlwind slam 4d4 Fort 12 / Reflex 13 / Will 12 Special: Permanent Invisibility on material plane (visible only on its home plane; −6 to opponents' surprise rolls; opponents who cannot see invisible suffer −2 to attack rolls); Magic Resistance 30%; Perfect Tracker (follows any trail less than 24 hours old without error); Bound to Completion (cannot abandon its assigned task without finding a loophole; unlike the aerial servant, the invisible stalker is intelligent enough to look for the loophole actively — it will find one if given enough time, 1% cumulative daily chance); on task failure the stalker returns to home plane without hunting the summoner; not permanently destroyed on material plane (reduced to 0 HP on any non-air-elemental-plane means the stalker is driven home, not killed) Morale: 13 · XP: 4,000 · Treasure: None
+
+The invisible stalker is more dangerous than its stat block suggests, because the stat block describes what it does in combat and not what it does before combat. An invisible stalker assigned to find, follow, or retrieve a specific target is operating on the material plane with perfect tracking capability, permanent invisibility, and enough intelligence to understand context. The target's defenses are visible to it in a way that they are not visible to most threats. Their movements are knowable. Their companions are observable.
+
+It does not act until it judges the moment optimal, and it is in no particular hurry. The loophole search — 1% cumulative daily chance to abandon — means that assignments expected to take more than a few months carry increasing operational risk. An intelligent summoner assigns the stalker to tasks with defined endpoints. An impatient summoner assigns it to open-ended surveillance and then wonders why, six months later, the stalker has found a technical reading of "report on their movements" that doesn't require continued service.
+
+In combat, it fights as a whirlwind of focused air rather than with any physical form. The 4d4 damage is lower than many comparable-HD creatures, but the −6 to surprise and the −2 to hit against an opponent who cannot see invisible means the first round of combat usually goes entirely in the stalker's favour.
+
