@@ -8,3 +8,46 @@ h1, h2, h3, h4, h5, h6,
 .title, .name {
   font-family: var(--vp-font-family-alt) !important;
 }
+
+/* Home Background Configuration */
+.home-background {
+  background-image: url('/map_background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.home-background::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay to ensure text readability */
+  z-index: -1;
+}
+
+.home-background .VPNav,
+.home-background .VPNavScreen {
+  background-color: transparent !important;
+  backdrop-filter: blur(2px);
+}
+
+.home-background .VPContent {
+  background: transparent !important;
+}
+
+.home-background .VPHero .name,
+.home-background .VPHero .text,
+.home-background .VPHero .tagline {
+  color: #ffffff !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  -webkit-text-fill-color: #ffffff !important; /* Overriding default text gradient */
+}
+
+/* Adjust logo to fit navbar properly */
+.VPNavBarTitle .logo {
+  max-height: 36px;
+}

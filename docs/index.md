@@ -1,5 +1,6 @@
 ---
 layout: home
+pageClass: home-background
 
 hero:
   name: "Swords & Darkness"
@@ -7,7 +8,7 @@ hero:
   tagline: "The complete guide to the campaign setting."
   actions:
     - theme: brand
-      text: Get Started
+      text: Core Rules
       link: /Book I - Core Rules/B01 - Chapter 00 - Introduction
     - theme: alt
       text: The Known World

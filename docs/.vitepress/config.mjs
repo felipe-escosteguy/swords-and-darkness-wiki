@@ -29,6 +29,8 @@ export default defineConfig({
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap', rel: 'stylesheet' }]
   ],
   themeConfig: {
+    logo: { light: '/logo-black.png', dark: '/logo-white.png' },
+    siteTitle: false,
     search: {
       provider: 'local'
     },
