@@ -1,0 +1,10 @@
+:root {
+  --vp-font-family-base: "EB Garamond", serif;
+  --vp-font-family-alt: "Cinzel", serif;
+}
+
+h1, h2, h3, h4, h5, h6, 
+.vp-doc h1, .vp-doc h2, .vp-doc h3, .vp-doc h4, .vp-doc h5, .vp-doc h6,
+.title, .name {
+  font-family: var(--vp-font-family-alt) !important;
+}
