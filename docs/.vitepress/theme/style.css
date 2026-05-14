@@ -30,47 +30,55 @@ h6,
   font-family: var(--vp-font-family-alt) !important;
 }
 
-/* Home Background Configuration */
-.home-background {
-  background-image: url('/map_background.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 100vh;
+/* Global App Background */
+:root {
+  --vp-c-bg: #000000;
+  --vp-c-bg-alt: #0a0a0a;
+  --vp-c-divider: rgba(255, 255, 255, 0.1);
+  --vp-c-text-1: #e0e0e0;
 }
 
-.home-background::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  /* Dark overlay to ensure text readability */
-  z-index: -1;
+html, body {
+  background-color: #000000 !important;
 }
 
-.home-background .VPNav,
-.home-background .VPNavScreen {
+/* Interior Content Panel */
+.VPDoc {
+  background-color: #151518;
+  padding: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 960px) {
+  .VPDoc {
+    margin: 40px 40px 40px 0;
+  }
+}
+
+/* Custom Home Page Navigation */
+.custom-home-page .VPNav {
   background-color: transparent !important;
   backdrop-filter: blur(2px);
 }
 
-.home-background .VPContent {
-  background: transparent !important;
+.custom-home-page .VPContent {
+  padding: 0 !important;
 }
 
-.home-background .VPHero .name,
-.home-background .VPHero .text,
-.home-background .VPHero .tagline {
-  color: #ffffff !important;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
-  -webkit-text-fill-color: #ffffff !important;
-  /* Overriding default text gradient */
+/* Navbar Separators */
+.VPNavBarMenu > .VPLink + .VPLink::before {
+  content: "|";
+  color: #666;
+  position: absolute;
+  left: -20px;
+  pointer-events: none;
 }
 
-/* Adjust logo to fit navbar properly */
+/* Adjust logo */
 .VPNavBarTitle .logo {
-  max-height: 42px;
+  max-height: 48px;
 }
