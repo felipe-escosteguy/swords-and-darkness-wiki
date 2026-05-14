@@ -5,7 +5,7 @@ pageClass: home-background
 hero:
   name: <img src="/logo-white.png" class="hero-logo" alt="Swords & Darkness">
   text: "Core Rules & World Bible"
-  tagline: "The complete guide to the campaign setting."
+  tagline: "The complete guide to the campaign setting"
   actions:
     - theme: brand
       text: Core Rules
@@ -14,3 +14,14 @@ hero:
       text: The Known World
       link: /Book II - The Known World/B02 - Chapter 00_ Introduction
 ---
+
+<div class="hero-extra-text">
+
+## Heroic Fantasy & Grim Peril
+### A retroclone of the most famous role-playing game’s second edition.
+
+I started writing this game years ago, and I made a promise to myself to make it freely available. Everything you see here is the entire game (although still a work in progress), and you may feel free to play it as you see fit. The system is based on AD&D 2nd Edition, but there are many changes to the mechanics. A guide has been provided at the end of this page to help you use these mechanics with your favorite old-school books.
+
+Sword & Darkness™ is an Open Game License interpretation of Zeb Cook's 2nd Edition rules. All material contained within is free for use, distribution, remix, adaptation, and building upon the material in any medium or format, for noncommercial purposes only, as per the Creative Commons Attribution-NonCommercial 4.0 International license.
+
+</div>

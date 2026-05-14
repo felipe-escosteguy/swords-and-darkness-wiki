@@ -1,6 +1,12 @@
 :root {
   --vp-font-family-base: "EB Garamond", serif;
   --vp-font-family-alt: "Cinzel", serif;
+  
+  /* Brand Color Overrides */
+  --vp-c-brand-1: #CA6129;
+  --vp-c-brand-2: #B0501F; /* Darker variant for hover */
+  --vp-c-brand-3: #934117; /* Darkest variant */
+  --vp-c-brand-soft: rgba(202, 97, 41, 0.16);
 }
 
 /* Increase body text font size */
@@ -106,4 +112,41 @@ h6,
 /* Adjust logo to fit navbar properly */
 .VPNavBarTitle .logo {
   max-height: 48px;
+}
+
+/* Hero Extra Text Section */
+.hero-extra-text {
+  max-width: 800px;
+  margin: 32px auto 60px auto; /* Matches the space between Core Rules and buttons */
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-extra-text h2 {
+  font-family: var(--vp-font-family-alt);
+  font-size: 32px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.hero-extra-text h3 {
+  font-family: var(--vp-font-family-base);
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  margin-top: 0;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.hero-extra-text p {
+  font-family: var(--vp-font-family-base);
+  font-size: 18px;
+  line-height: 1.6;
+  color: #dddddd;
+  margin-bottom: 20px;
+  text-align: justify;
 }
