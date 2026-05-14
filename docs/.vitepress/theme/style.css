@@ -30,55 +30,80 @@ h6,
   font-family: var(--vp-font-family-alt) !important;
 }
 
-/* Global App Background */
-:root {
-  --vp-c-bg: #000000;
-  --vp-c-bg-alt: #0a0a0a;
-  --vp-c-divider: rgba(255, 255, 255, 0.1);
-  --vp-c-text-1: #e0e0e0;
+/* Home Background Configuration */
+.home-background {
+  background-image: url('/home-darkbackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
-html, body {
-  background-color: #000000 !important;
+.home-background::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay to ensure text readability */
+  z-index: -1;
 }
 
-/* Interior Content Panel */
-.VPDoc {
-  background-color: #151518;
-  padding: 40px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-}
-
-@media (min-width: 960px) {
-  .VPDoc {
-    margin: 40px 40px 40px 0;
-  }
-}
-
-/* Custom Home Page Navigation */
-.custom-home-page .VPNav {
+.home-background .VPNav,
+.home-background .VPNavScreen {
   background-color: transparent !important;
   backdrop-filter: blur(2px);
 }
 
-.custom-home-page .VPContent {
-  padding: 0 !important;
+.home-background .VPContent {
+  background: transparent !important;
 }
 
-/* Navbar Separators */
-.VPNavBarMenu > .VPLink + .VPLink::before {
-  content: "|";
-  color: #666;
-  position: absolute;
-  left: -20px;
-  pointer-events: none;
+.home-background .VPHero .name {
+  background: none !important;
+  -webkit-text-fill-color: initial !important; /* Fix for image visibility */
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-/* Adjust logo */
+.home-background .VPHero .text {
+  color: #ffffff !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  -webkit-text-fill-color: #ffffff !important;
+  font-size: 38px !important; /* Scaled down to fit one line */
+  white-space: nowrap;
+}
+
+.home-background .VPHero .tagline {
+  color: #ffffff !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+/* Centralize Hero elements */
+.home-background .VPHero .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.home-background .VPHero .actions {
+  justify-content: center;
+}
+
+/* Center the logo in the hero section */
+.hero-logo {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto 30px auto; /* Increased bottom margin for more space */
+  display: block;
+  filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.8)); /* Add shadow to logo to match text */
+}
+
+/* Adjust logo to fit navbar properly */
 .VPNavBarTitle .logo {
   max-height: 48px;
 }

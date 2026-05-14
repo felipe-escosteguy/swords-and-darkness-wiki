@@ -23,6 +23,7 @@ function getSidebarItems(dir) {
 export default defineConfig({
   title: "Swords & Darkness",
   description: "Campaign setting and rules wiki",
+  appearance: 'force-dark',
   head: [
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
