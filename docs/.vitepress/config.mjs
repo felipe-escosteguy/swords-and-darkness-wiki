@@ -39,7 +39,8 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Book I', link: '/Book I - Core Rules/B01 - Chapter 00 - Introduction' },
       { text: 'Book II', link: '/Book II - The Known World/B02 - Chapter 00_ Introduction' },
-      { text: 'Book III', link: '/Book III - The Darkness/B03 - Chapter 01_ Dungeon Dwellers' }
+      { text: 'Book III', link: '/Book III - The Darkness/B03 - Chapter 01_ Dungeon Dwellers' },
+      { text: 'Character Builder', link: '/character-builder' }
     ],
     sidebar: [
       {

@@ -44,11 +44,11 @@ Bad things happen. Not everything ends well. But good people — with whatever m
 
 Almost all retroclones delve into Original D\&D territory, with a few advancing into AD\&D 1st Edition \- all but one, created by Justen Brown and launched in 2012, called For Gold & Glory. It was the first \- and, until now, only \- retroclone based on Zeb Cook's 2nd Edition rules.
 
-However, as much as I loved AD\&D 2nd Edition, the gamer in me that was reconnecting with the game in 2025 wasn’t the same anymore, and some rules seemed clunky and outdated. That, combined with the game setting that I mentioned earlier, has been my safe harbour in the past few years, brought me to start writing ***Swords & Darkness***.
+However, as much as I loved AD\&D 2nd Edition, the gamer in me that was reconnecting with the game in 2025 wasn’t the same anymore, and some rules seemed clunky and outdated. That, combined with the game setting that I mentioned earlier, has been my safe harbour in the past few years, brought me to start writing ***Sonata - Swords & Darkness***.
 
 S\&D is my own take on the game that has made me an avid RPG enthusiast since 1993\. It’s my answer to the question “*If I could only play one game for the rest of my life, which game would it be?*”, and it integrates some things that I fell in love with in other games as well. AD\&D 2nd Edition, For Gold & Glory, Ars Magica, Forbidden Lands, Breu, Café com Dungeon’s Oil Fantasy Manifesto (you should check this one out), Blades in the Dark, Shadowrun, Werewolf: The Apocalypse… There are too many to mention, but they are all here to some extent.
 
-So, more than a 2nd Edition retroclone \- which would be redundant, since FG\&G did a tremendous job on that already \- ***Swords & Darkness*** is a tribute to my very favorite game, blended with some modern tweaks that I’ve learned along the way.
+So, more than a 2nd Edition retroclone \- which would be redundant, since FG\&G did a tremendous job on that already \- ***Sonata - Swords & Darkness*** is a tribute to my very favorite game, blended with some modern tweaks that I’ve learned along the way.
 
 I hope you enjoy it.
 
@@ -76,7 +76,7 @@ Have fun — always. Role-playing is something you build together, one scene and
 
 Metagaming is when you let what *you* know seep into what your character does — calling out a monster’s weakness, planning around a spell’s exact effect, or treating a strange relic like you have read the label before your character ever laid eyes on it. Part of the craft of role-playing is holding that line, staying inside your character’s point of view even when you, as a player, see the bigger picture. For that reason, acting on out-of-character knowledge is strongly discouraged.
 
-***Swords & Darkness*** is a game of high fantasy where gods walk the earth, time bends, and the stars are not beyond reach. In that kind of world, the GM is the closest thing to a deity at the table — but a just and impartial one.
+***Sonata - Swords & Darkness*** is a game of high fantasy where gods walk the earth, time bends, and the stars are not beyond reach. In that kind of world, the GM is the closest thing to a deity at the table — but a just and impartial one.
 
 ## **REQUIRED MATERIALS**
 
