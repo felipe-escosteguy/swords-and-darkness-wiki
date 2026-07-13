@@ -26,7 +26,7 @@ Most encounters serve more than one function. A wandering ghoul is primarily a r
 
 ## **ENCOUNTER DIFFICULTY**
 
-S\&D uses creature level — derived from XP value — to calibrate whether an encounter is appropriate for a given party. The table:
+***Sonata*** uses creature level — derived from XP value — to calibrate whether an encounter is appropriate for a given party. The table:
 
 | XP Value | Creature Level |
 | ----- | ----- |

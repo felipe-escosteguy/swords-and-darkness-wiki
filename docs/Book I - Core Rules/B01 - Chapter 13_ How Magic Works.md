@@ -14,7 +14,7 @@ The deeper truth — which the Order of Magnus has been documenting for three ce
 
 ## **The Three Sources**
 
-Magic in S\&D draws from three fundamentally different sources. Which source a spell draws from determines how it behaves, who can cast it, and what happens when something goes wrong.
+Magic in ***Sonata*** draws from three fundamentally different sources. Which source a spell draws from determines how it behaves, who can cast it, and what happens when something goes wrong.
 
 **Arcane magic** draws from the raw structural forces underlying reality — the same forces the Darkness moved through, which is why the Church of Tar'amaan views arcane practice as contamination rather than skill. Mages, Sorcerers, and Bards access arcane magic. Mages learn to construct spells from scholarly first principles. Sorcerers receive them through a patron relationship that mediates access to those forces. Bards carry fragments of arcane tradition through oral transmission, understanding less of the theory but enough of the practice to produce real effects.
 

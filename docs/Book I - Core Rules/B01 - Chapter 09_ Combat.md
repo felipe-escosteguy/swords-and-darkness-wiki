@@ -667,7 +667,7 @@ Siege weapons attack structures rather than creatures. Match the siege weapon to
 
 # **Playing Without a Grid**
 
-S\&D's distances assume a battle grid with 1.5-meter squares. Groups playing without one can replace precise measurements with three informal range bands:
+The game's distances assume a battle grid with 1.5-meter squares. Groups playing without one can replace precise measurements with three informal range bands:
 
 * **Close** — within arm's reach, or near enough that melee is unavoidable. Melee weapons and touch spells work here.  
 * **Nearby** — across the room, or roughly 20 meters in open terrain. Missile weapons, most combat spells, and short-range abilities work here.  

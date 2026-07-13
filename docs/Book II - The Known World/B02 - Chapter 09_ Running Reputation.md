@@ -86,7 +86,7 @@ A useful beat to run in the premiere's immediate aftermath: return the party to 
 
 ### **A Final Note on What the Orchestra Is For**
 
-The Orchestra exists in S\&D to answer the question the game is built around: what does it mean to matter?
+The Orchestra exists in the game to answer the question the game is built around: what does it mean to matter?
 
 The Known World is full of people who do things and die and are forgotten. Most of the people in every city the party passes through will never be remembered beyond the circle of those who knew them personally. This is not tragedy, but the scale at which most lives operate. The party is different only in that they have chosen to operate at a scale where what they do has consequences beyond the immediate. Whether those consequences accumulate into something the Orchestra would call worthy is genuinely uncertain, genuinely contested, and genuinely not guaranteed.
 

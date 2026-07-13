@@ -4,7 +4,7 @@ Part IV is addressed to the GM.
 
 The player-facing chapters give everyone at the table what they need to play. This part gives the GM what they need to run it — which is a different skill set, a different set of decisions, and a job that only gets easier when you understand what you're actually doing and why.
 
-This chapter covers the conceptual foundation and practical procedures: what S\&D expects from the GM, how to prepare a session, how to handle the gap between the rules and any given table situation, how to pace a session, and how to deal with some of the harder moments the game will produce. Subsequent chapters cover the practical infrastructure — building encounters, creating treasure, managing hirelings, and tracking experience.
+This chapter covers the conceptual foundation and practical procedures: what ***Sonata*** expects from the GM, how to prepare a session, how to handle the gap between the rules and any given table situation, how to pace a session, and how to deal with some of the harder moments the game will produce. Subsequent chapters cover the practical infrastructure — building encounters, creating treasure, managing hirelings, and tracking experience.
 
 ## **WHAT THE GM DOES**
 
@@ -18,7 +18,7 @@ The GM's function isn't to win, and it isn't to ensure that specific story beats
 
 ## **THE KNOWN WORLD AT THE TABLE**
 
-S\&D occupies specific tonal ground. Running it in the wrong register produces a game that works mechanically but feels hollow.
+***Sonata*** occupies specific tonal ground. Running it in the wrong register produces a game that works mechanically but feels hollow.
 
 The Known World sits between grimdark and comfort fantasy, and the distance from each matters. Grimdark argues that heroism is an illusion, that good intentions produce catastrophic outcomes, and that survival is the most honest ambition. The Known World does not make that argument. People here die for things that matter. Heroism is possible. It costs something real — that cost is what gives it weight. Comfort fantasy is the other failure mode: evil announced as evil, resistance universal, darkness as backdrop rather than condition. The Church of Tar'amaan is not abstract. They believe they are right. Their theology is internally coherent, their practitioners are sincere, and they do terrible things — not because they enjoy it, but because they are certain it is necessary. The Cadman occupation of Norderenn is fifteen years old, long enough that some people have accommodated it, built lives under it, or been broken by it. The game does not pretend otherwise.
 
@@ -78,7 +78,7 @@ A note on the magic rules: the component system established in Chapter 13 has a 
 
 This rule comes from an article written by Justin Alexander (author of “*So You Wanna Be a Game Master*”), and it says that for any conclusion the party needs to reach, build at least three independent paths to it.
 
-This is the operational foundation of any investigation scenario, and S\&D's setting generates investigations constantly — identifying an informant, tracing an obsidian shipment, establishing who gave an order, and why. The Three Clue Rule is the mechanism that makes those scenarios survivable when players miss an obvious thread.
+This is the operational foundation of any investigation scenario, and the setting generates investigations constantly — identifying an informant, tracing an obsidian shipment, establishing who gave an order, and why. The Three Clue Rule is the mechanism that makes those scenarios survivable when players miss an obvious thread.
 
 The logic: in any given session, a clue may be missed (the party didn't search the right place), bypassed (they found a different route), or rendered inaccessible by unexpected developments. If only one path to a conclusion exists, missing it ends the investigation. If three exist — each pointing independently to the same conclusion — missing one or two still leaves a way forward. The party keeps moving.
 
@@ -90,7 +90,7 @@ Two things the rule doesn't require. First, the clues don't need to be planted i
 
 ## **PACING**
 
-A session of S\&D has rhythm. Learning to feel that rhythm — and to adjust it when it's wrong — is one of the most useful skills a GM develops.
+A session of ***Sonata*** has rhythm. Learning to feel that rhythm — and to adjust it when it's wrong — is one of the most useful skills a GM develops.
 
 Tension and release form the basic unit of that rhythm. If every scene is high-stakes combat, players become numb to stakes — not because the danger isn't real, but because the contrast that makes danger register has been removed. Conversations, exploration, preparation, the moment of walking into a place and assessing it before anything has happened — these are not dead time. They are the contrast that makes the fight in the third chamber feel different from the fight in the second. The Known World is not an encounter list; it's a place where encounters happen against a backdrop of quiet.
 
@@ -114,7 +114,7 @@ Between sessions, the world moves. Factions pursue their agendas. A garrison the
 
 ## **HANDLING PLAYER DEATH**
 
-Characters die in S\&D. It’s one of the ways the game communicates that the world has consequences, and a game without consequences is a game without tension.
+Characters die. It’s one of the ways the game communicates that the world has consequences, and a game without consequences is a game without tension.
 
 When a character dies, the GM's job is twofold: handle the practical moment at the table with respect for what the player invested in this character, then re-engage them as quickly as possible with a new character who has reasons to be where the party is.
 

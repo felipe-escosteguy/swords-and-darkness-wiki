@@ -2,7 +2,7 @@
 
 A character's class represents the core of their training. Multiclassing represents what happens when that training expands — when a soldier discovers they have a gift for magic, when a thief finds themselves in service to something they are willing to die for, when a scholar realizes that the knowledge they want cannot be acquired from books alone.
 
-Multiclassing is a single unified system. Dual-classing — the old practice of abandoning one class, enduring a period where neither class's abilities were fully available, and eventually regaining the original — is not used in S\&D. Every character who pursues a second class does so without losing anything they have already built.
+Multiclassing is a single unified system. Dual-classing — the old practice of abandoning one class, enduring a period where neither class's abilities were fully available, and eventually regaining the original — is not used in ***Sonata***. Every character who pursues a second class does so without losing anything they have already built.
 
 ---
 

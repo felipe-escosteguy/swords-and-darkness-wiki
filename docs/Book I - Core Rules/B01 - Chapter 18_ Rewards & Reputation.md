@@ -1,6 +1,6 @@
 # **CHAPTER 18: REWARDS & REPUTATION**
 
-Rewards in S\&D come in two currencies. The first is concrete: experience, gold, items. The second is social: the party's standing in the Known World and whether the Vithurian Orchestra has taken notice. Both matter. Neither operates independently of the other.
+Rewards in ***Sonata*** come in two currencies. The first is concrete: experience, gold, items. The second is social: the party's standing in the Known World and whether the Vithurian Orchestra has taken notice. Both matter. Neither operates independently of the other.
 
 This chapter covers how XP is earned and divided, how to generate and place treasure meaningfully, how magic items work once the party has them and what it takes to make or ruin them, and how reputation accrues — what the three tiers of recognition mean at the table, how to run the moment when an Orchestra agent makes contact, and when a song becomes possible.
 
@@ -92,7 +92,7 @@ At the end of every season, characters can engage in different activities and ea
 
 ### **Levelling Up**
 
-When a character accumulates enough XP to advance, they gain all the benefits of their new level immediately. There is no training period requirement in S\&D unless the GM explicitly builds one into the fiction — a paladin whose patron temple is destroyed, a druid whose grove has been burned, and who has no access to a superior who can oversee their advancement, might reasonably find advancement blocked until that situation is addressed. This is fiction, not a standing rule. Apply it when it serves the story and remove it when it doesn't.
+When a character accumulates enough XP to advance, they gain all the benefits of their new level immediately. There is no training period requirement in ***Sonata*** unless the GM explicitly builds one into the fiction — a paladin whose patron temple is destroyed, a druid whose grove has been burned, and who has no access to a superior who can oversee their advancement, might reasonably find advancement blocked until that situation is addressed. This is fiction, not a standing rule. Apply it when it serves the story and remove it when it doesn't.
 
 ## **TREASURE**
 

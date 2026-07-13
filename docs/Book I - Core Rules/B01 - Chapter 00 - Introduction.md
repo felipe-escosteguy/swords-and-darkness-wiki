@@ -46,13 +46,13 @@ Almost all retroclones delve into Original D\&D territory, with a few advancing 
 
 However, as much as I loved AD\&D 2nd Edition, the gamer in me that was reconnecting with the game in 2025 wasn’t the same anymore, and some rules seemed clunky and outdated. That, combined with the game setting that I mentioned earlier, has been my safe harbour in the past few years, brought me to start writing ***Sonata - Swords & Darkness***.
 
-S\&D is my own take on the game that has made me an avid RPG enthusiast since 1993\. It’s my answer to the question “*If I could only play one game for the rest of my life, which game would it be?*”, and it integrates some things that I fell in love with in other games as well. AD\&D 2nd Edition, For Gold & Glory, Ars Magica, Forbidden Lands, Breu, Café com Dungeon’s Oil Fantasy Manifesto (you should check this one out), Blades in the Dark, Shadowrun, Werewolf: The Apocalypse… There are too many to mention, but they are all here to some extent.
+***Sonata*** is my own take on the game that has made me an avid RPG enthusiast since 1993\. It’s my answer to the question “*If I could only play one game for the rest of my life, which game would it be?*”, and it integrates some things that I fell in love with in other games as well. AD\&D 2nd Edition, For Gold & Glory, Ars Magica, Forbidden Lands, Breu, Café com Dungeon’s Oil Fantasy Manifesto (you should check this one out), Blades in the Dark, Shadowrun, Werewolf: The Apocalypse… There are too many to mention, but they are all here to some extent.
 
 So, more than a 2nd Edition retroclone \- which would be redundant, since FG\&G did a tremendous job on that already \- ***Sonata - Swords & Darkness*** is a tribute to my very favorite game, blended with some modern tweaks that I’ve learned along the way.
 
 I hope you enjoy it.
 
-***Sword & Darkness™*** is an Open Game License interpretation of Zeb Cook's 2nd Edition rules. All material contained within is free for use, distribution, copying, and modification within the terms of the OGL.
+***Sonata - Swords & Darkness™*** is an Open Game License interpretation of Zeb Cook's 2nd Edition rules. All material contained within is free for use, distribution, copying, and modification within the terms of the OGL.
 
 ---
 
@@ -94,7 +94,7 @@ We will dig into the rules in the chapters ahead.
 
 ### **THE GAME CYCLE**
 
-The game cycle guides every session of **S\&D**:
+The game cycle guides every session of ***Sonata***:
 
 1. **The GM Narrates the Details:** The GM presents a scene, describing the surroundings, the hazards, the NPCs, and any important elements the characters notice immediately.  
 2. **Players and GM Ask Questions:** Everyone asks questions to clarify the situation and understand the available options.  
