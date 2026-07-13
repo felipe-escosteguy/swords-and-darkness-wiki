@@ -236,6 +236,11 @@ const hpRolls = ref([]) // Level-by-level history
 // Skills State
 const selectedSkills = ref([]) // array of skill names
 const skillPointSpend = ref(0)
+
+// Weapon & Combat Skills State
+const weaponSkills = ref({}) // e.g. { 'Sword, long': 'skilled', 'Sling': 'specialized' }
+const freeSpecializationChoice = ref('') // Champion's free specialization
+const prevFreeSpec = ref('')
 const thievingSkillsPoints = ref({ pickPockets: 15, openLocks: 10, findTraps: 5, moveSilently: 10, hideShadows: 5, hearNoise: 10, climbWalls: 60, readLanguages: 0 })
 
 // Equipment & Inventory State
@@ -947,18 +952,61 @@ const encumbranceDetails = computed(() => {
 
 // --- SKILL POINTS BUDGET ---
 
-const skillPointsMax = computed(() => {
-  const primarySP = CLASSES[primaryClass.value]?.sp || 5
-  const ageSP = LIFE_STAGES[lifeStage.value]?.sp || 0
-  return primarySP + ageSP
+const canSpecialize = computed(() => {
+  return (primaryClass.value === 'fighter' && !secondaryClass.value) || 
+         (primaryClass.value === 'champion' && !secondaryClass.value)
 })
 
-const skillPointsRemaining = computed(() => {
+function isWeaponPermitted(weaponName) {
+  const pClass = primaryClass.value
+  const sClass = secondaryClass.value
+  
+  const checkClassPermitted = (cls) => {
+    if (!cls) return false
+    if (['fighter', 'paladin', 'ranger', 'champion', 'thief', 'bard'].includes(cls)) return true
+    if (cls === 'mage' || cls === 'sorcerer') {
+      return ['Dagger/dirk', 'Knife', 'Quarterstaff', 'Sling'].includes(weaponName)
+    }
+    if (cls === 'cleric') {
+      return ['Club', "Footman's flail", "Footman's mace", 'Quarterstaff', 'War hammer', 'Sling'].includes(weaponName)
+    }
+    if (cls === 'druid') {
+      return ['Club', 'Dagger/dirk', 'Knife', 'Quarterstaff', 'Spear', 'Sword, scimitar', 'Sling', 'Javelin'].includes(weaponName)
+    }
+    return false
+  }
+  
+  return checkClassPermitted(pClass) || checkClassPermitted(sClass)
+}
+
+const weaponSkillsSpent = computed(() => {
+  let spent = 0
+  for (const wName in weaponSkills.value) {
+    const status = weaponSkills.value[wName]
+    if (!status) continue
+    
+    // Check if it's the Champion's free specialization
+    if (primaryClass.value === 'champion' && freeSpecializationChoice.value === wName && status === 'specialized') {
+      continue // 0 SP cost
+    }
+    
+    const base = isWeaponPermitted(wName) ? 1 : 2
+    if (status === 'skilled') {
+      spent += base
+    } else if (status === 'specialized') {
+      const isBowOrCrossbow = ['Bow, long', 'Bow, short', 'Crossbow, heavy', 'Crossbow, light'].includes(wName)
+      const specCost = isBowOrCrossbow ? 2 : 1
+      spent += base + specCost
+    }
+  }
+  return spent
+})
+
+const spentNonCombat = computed(() => {
   let spent = 0
   selectedSkills.value.forEach(sName => {
     const skObj = SKILLS.find(s => s.name === sName)
     if (skObj) {
-      // Animal handling is 1 for Rangers and Druids
       if (skObj.name === 'Animal Handling' && (primaryClass.value === 'ranger' || primaryClass.value === 'druid' || secondaryClass.value === 'ranger' || secondaryClass.value === 'druid')) {
         spent += 1
       } else {
@@ -966,8 +1014,159 @@ const skillPointsRemaining = computed(() => {
       }
     }
   })
-  return skillPointsMax.value - spent
+  return spent
 })
+
+const skillPointsMax = computed(() => {
+  const grps = [classGroup.value]
+  if (secondaryClassGroup.value) {
+    grps.push(secondaryClassGroup.value)
+  }
+  
+  let baseSP = 5
+  let rate = 4
+  
+  if (grps.includes('warrior')) {
+    baseSP = 7
+    rate = 3
+  } else if (grps.includes('wizard')) {
+    baseSP = 6
+    rate = 3
+  } else if (grps.includes('priest') || grps.includes('rogue')) {
+    baseSP = 5
+    rate = 4
+  }
+  
+  const activeLevel = Math.max(levelPrimary.value, levelSecondary.value)
+  const levelUpSP = 2 * Math.floor((activeLevel - 1) / rate)
+  const ageSP = LIFE_STAGES[lifeStage.value]?.sp || 0
+  
+  return baseSP + levelUpSP + ageSP
+})
+
+const skillPointsRemaining = computed(() => {
+  return skillPointsMax.value - (spentNonCombat.value + weaponSkillsSpent.value)
+})
+
+function setWeaponSkill(wName, level) {
+  // If set to unskilled
+  if (!level) {
+    weaponSkills.value[wName] = null
+    // If it was the free specialization, reset it too
+    if (freeSpecializationChoice.value === wName) {
+      freeSpecializationChoice.value = ''
+      prevFreeSpec.value = ''
+    }
+    return
+  }
+
+  // Calculate potential cost change
+  const current = weaponSkills.value[wName]
+  let currentCost = 0
+  if (current === 'skilled') {
+    currentCost = isWeaponPermitted(wName) ? 1 : 2
+  } else if (current === 'specialized') {
+    if (primaryClass.value === 'champion' && freeSpecializationChoice.value === wName) {
+      currentCost = 0
+    } else {
+      const base = isWeaponPermitted(wName) ? 1 : 2
+      const isBowOrCrossbow = ['Bow, long', 'Bow, short', 'Crossbow, heavy', 'Crossbow, light'].includes(wName)
+      currentCost = base + (isBowOrCrossbow ? 2 : 1)
+    }
+  }
+
+  let targetCost = 0
+  if (level === 'skilled') {
+    targetCost = isWeaponPermitted(wName) ? 1 : 2
+  } else if (level === 'specialized') {
+    // If it's chosen as free spec
+    if (primaryClass.value === 'champion' && freeSpecializationChoice.value === wName) {
+      targetCost = 0
+    } else {
+      const base = isWeaponPermitted(wName) ? 1 : 2
+      const isBowOrCrossbow = ['Bow, long', 'Bow, short', 'Crossbow, heavy', 'Crossbow, light'].includes(wName)
+      targetCost = base + (isBowOrCrossbow ? 2 : 1)
+    }
+  }
+
+  const diff = targetCost - currentCost
+  if (skillPointsRemaining.value >= diff) {
+    weaponSkills.value[wName] = level
+  }
+}
+
+function handleFreeSpecChange() {
+  if (prevFreeSpec.value && prevFreeSpec.value !== freeSpecializationChoice.value) {
+    if (weaponSkills.value[prevFreeSpec.value] === 'specialized') {
+      weaponSkills.value[prevFreeSpec.value] = null
+    }
+  }
+  
+  if (freeSpecializationChoice.value) {
+    weaponSkills.value[freeSpecializationChoice.value] = 'specialized'
+    prevFreeSpec.value = freeSpecializationChoice.value
+  }
+}
+
+const unskilledPenalty = computed(() => {
+  const grps = [classGroup.value]
+  if (secondaryClassGroup.value) grps.push(secondaryClassGroup.value)
+  
+  if (grps.includes('warrior')) return -2
+  if (grps.includes('priest') || grps.includes('rogue')) return -3
+  return -5
+})
+
+function getWeaponAtkAdj(itemName) {
+  const w = WEAPONS.find(x => x.name === itemName)
+  if (!w) return 0
+  const isRanged = w.category === 'ranged'
+  const base = isRanged ? dexDetails.value.missile : strDetails.value.atk
+  return base
+}
+
+function getWeaponDmgAdj(itemName) {
+  const w = WEAPONS.find(x => x.name === itemName)
+  if (!w) return 0
+  if (w.type === 'P' && w.category === 'ranged') return 0
+  return strDetails.value.dmg
+}
+
+function getWeaponSkillAtkBonus(itemName) {
+  const status = weaponSkills.value[itemName]
+  if (status === 'specialized') {
+    const isBowOrCrossbow = ['Bow, long', 'Bow, short', 'Crossbow, heavy', 'Crossbow, light'].includes(itemName)
+    return isBowOrCrossbow ? 2 : 1
+  }
+  if (status === 'skilled') {
+    return 0
+  }
+  return unskilledPenalty.value
+}
+
+function getWeaponSkillDmgBonus(itemName) {
+  const status = weaponSkills.value[itemName]
+  if (status === 'specialized') {
+    const isBowOrCrossbow = ['Bow, long', 'Bow, short', 'Crossbow, heavy', 'Crossbow, light'].includes(itemName)
+    return isBowOrCrossbow ? 0 : 2
+  }
+  return 0
+}
+
+function getWeaponTotalAtk(itemName) {
+  const base = getWeaponAtkAdj(itemName)
+  const skill = getWeaponSkillAtkBonus(itemName)
+  const ab = attackBonus.value
+  const total = base + skill + ab
+  return total >= 0 ? `+${total}` : `${total}`
+}
+
+function getWeaponTotalDmg(itemName) {
+  const base = getWeaponDmgAdj(itemName)
+  const skill = getWeaponSkillDmgBonus(itemName)
+  const total = base + skill
+  return total >= 0 ? `+${total}` : `${total}`
+}
 
 function toggleSkill(sName) {
   const idx = selectedSkills.value.indexOf(sName)
@@ -1323,6 +1522,8 @@ function getCharacterJSON() {
         will: { value: saves.value.will }
       },
       skills: selectedSkills.value,
+      weaponSkills: weaponSkills.value,
+      freeSpecializationChoice: freeSpecializationChoice.value,
       thieving: thievingSkillsPoints.value,
       spells: selectedSpells.value.map(s => s.name),
       inventory: inventory.value,
@@ -1346,7 +1547,7 @@ function importJSON(event) {
     try {
       const parsed = JSON.parse(e.target.result)
       if (parsed.type !== 'character') {
-        importError.value = 'Invalid JSON: Not an S&D character sheet.'
+        importError.value = 'Invalid JSON: Not a Sonata character sheet.'
         return
       }
 
@@ -1380,6 +1581,10 @@ function importJSON(event) {
       exceptionalPercent.value = ab.str.exceptional || 0
 
       selectedSkills.value = sys.skills || []
+      weaponSkills.value = sys.weaponSkills || {}
+      freeSpecializationChoice.value = sys.freeSpecializationChoice || ''
+      prevFreeSpec.value = sys.freeSpecializationChoice || ''
+      
       if (sys.thieving) thievingSkillsPoints.value = sys.thieving
       inventory.value = sys.inventory || []
       
@@ -1423,9 +1628,13 @@ function exportMarkdown() {
 function getCharacterMarkdown() {
   const invList = inventory.value.map(i => `- ${i.name} (x${i.qty})${i.equipped ? ' [Equipped]' : ''} - Load: ${i.weight * i.qty} kg`).join('\n')
   const skList = selectedSkills.value.map(s => `- ${s}`).join('\n')
+  const weaponSkillsList = Object.entries(weaponSkills.value)
+    .filter(([_, status]) => status)
+    .map(([wName, status]) => `- **${wName}**: ${status === 'specialized' ? 'Specialized' : 'Skilled'}`)
+    .join('\n')
   const spList = selectedSpells.value.map(s => `- **${s.name}** (${s.school}, Level ${s.level})`).join('\n')
   
-  return `# Swords & Darkness Character: ${characterName.value}
+  return `# Sonata - Swords & Darkness Character: ${characterName.value}
 **Player:** ${playerName.value || '—'} | **Ancestry:** ${ANCESTRIES[ancestry.value].name} | **Class:** ${levelText.value}
 **Homeland:** ${homeland.value || '—'} | **Religion:** ${religion.value || '—'} | **Alignment:** ${alignment.value}
 
@@ -1449,7 +1658,10 @@ function getCharacterMarkdown() {
 - **Reflex (DEX):** ${saves.value.ref}
 - **Will (WIS):** ${saves.value.will}
 
-## SKILLS
+## COMBAT & WEAPON SKILLS
+${weaponSkillsList || 'No weapon skills selected.'}
+
+## NON-COMBAT SKILLS
 ${skList || 'No skills selected.'}
 
 ## EQUIPMENT
@@ -1508,6 +1720,46 @@ const validationErrors = computed(() => {
   if (skillPointsRemaining.value < 0) {
     errors.push(`Skill point deficit: Spent ${skillPointsMax.value - skillPointsRemaining.value}/${skillPointsMax.value} SP.`)
   }
+  
+  // Weapon specialization count check for 1st-level Fighter
+  const specializedCount = Object.values(weaponSkills.value).filter(status => status === 'specialized').length
+  const activeLevel = Math.max(levelPrimary.value, levelSecondary.value)
+  if (primaryClass.value === 'fighter' && !secondaryClass.value && activeLevel === 1 && specializedCount > 1) {
+    errors.push('A 1st-level Fighter may specialize in only one weapon.')
+  }
+  
+  // Non-Fighters / non-Champions specializing check
+  const hasSpec = specializedCount > 0
+  const canSpec = (primaryClass.value === 'fighter' && !secondaryClass.value) || 
+                  (primaryClass.value === 'champion' && !secondaryClass.value)
+  if (hasSpec && !canSpec) {
+    errors.push('Weapon specialization is only available to single-class Fighters and Champions.')
+  }
+  
+  // Minimum skill spend rules at level 1
+  if (activeLevel === 1) {
+    // Wizard min spend: 4 SP on Non-Combat Skills
+    const isWiz = primaryClass.value === 'mage' || primaryClass.value === 'sorcerer'
+    if (isWiz && !secondaryClass.value && spentNonCombat.value < 4) {
+      errors.push('At character creation, Wizards must spend at least 4 SP on Non-Combat Skills.')
+    }
+    
+    // Fighter min spend: 3 SP on Combat Skills
+    const isFighter = primaryClass.value === 'fighter'
+    if (isFighter && !secondaryClass.value && weaponSkillsSpent.value < 3) {
+      errors.push('At character creation, Fighters must spend at least 3 SP on Combat/Weapon Skills.')
+    }
+    
+    // Group distribution check if any points are spent and remaining is 0
+    if (skillPointsRemaining.value === 0) {
+      if (weaponSkillsSpent.value > 0 && spentNonCombat.value === 0) {
+        errors.push('At character creation, you cannot allocate all your SP in Combat/Weapon Skills; you must spend at least some in Non-Combat Skills.')
+      } else if (spentNonCombat.value > 0 && weaponSkillsSpent.value === 0) {
+        errors.push('At character creation, you cannot allocate all your SP in Non-Combat Skills; you must spend at least some in Combat/Weapon Skills.')
+      }
+    }
+  }
+  
   return errors
 })
 </script>
@@ -1517,7 +1769,7 @@ const validationErrors = computed(() => {
     <!-- Builder Controls Panel (hidden in print) -->
     <div class="builder-panel no-print">
       <header class="builder-header">
-        <h1 class="cinzel-title">Swords & Darkness Character Builder</h1>
+        <h1 class="cinzel-title">Sonata - Swords & Darkness Character Builder</h1>
         <p class="subtitle font-serif">Create and customize characters according to the Open Game License 2nd Edition rules.</p>
       </header>
 
@@ -1850,6 +2102,70 @@ const validationErrors = computed(() => {
           </div>
         </div>
 
+        <!-- TAB 3 SUBSECTION: COMBAT & WEAPON SKILLS -->
+        <div class="form-card mt-2">
+          <h3 class="card-title">Combat &amp; Weapon Skills Selection</h3>
+          <div class="skills-banner">
+            <span class="badge">Remaining Skill Points: {{ skillPointsRemaining }} / {{ skillPointsMax }}</span>
+            <p class="font-serif font-sm">
+              Weapon skills allow proficient use of weapons (eliminating unskilled penalties). 
+              Base weapon skills cost <strong>1 SP</strong> if permitted by your class, or <strong>2 SP</strong> if non-permitted.
+            </p>
+            <p v-if="canSpecialize" class="font-serif font-sm mt-05">
+              As a single-class Fighter or Champion, you can <strong>specialize</strong> in weapon skills. 
+              Specialization costs an extra <strong>1 SP</strong> (melee) or <strong>2 SP</strong> (bow/crossbow).
+            </p>
+          </div>
+
+          <!-- Champion Free Specialization Selection -->
+          <div v-if="primaryClass === 'champion'" class="form-group font-sans mb-1 select-free-spec">
+            <label class="font-bold">Champion Free Specialization:</label>
+            <select v-model="freeSpecializationChoice" class="form-control" @change="handleFreeSpecChange">
+              <option value="">-- Choose Free Specialized Weapon --</option>
+              <option v-for="w in WEAPONS" :key="w.name" :value="w.name">{{ w.name }}</option>
+            </select>
+            <p class="font-xs text-muted mt-05">Champions gain one free weapon specialization at character creation (0 SP cost).</p>
+          </div>
+
+          <div class="weapon-skills-grid font-serif">
+            <div v-for="w in WEAPONS" :key="w.name" class="weapon-skill-item" :class="{ selected: weaponSkills[w.name] }">
+              <div class="weapon-info">
+                <span class="weapon-name font-bold">{{ w.name }}</span>
+                <span class="weapon-type-badge font-sans font-xs text-muted">
+                  {{ isWeaponPermitted(w.name) ? 'Permitted' : 'Non-Permitted (2 SP)' }} • {{ w.category.toUpperCase() }} ({{ w.type }})
+                </span>
+              </div>
+              <div class="weapon-btn-group font-sans">
+                <button 
+                  type="button" 
+                  class="btn-weapon-select" 
+                  :class="{ active: !weaponSkills[w.name] }" 
+                  @click="setWeaponSkill(w.name, null)"
+                >
+                  Unskilled
+                </button>
+                <button 
+                  type="button" 
+                  class="btn-weapon-select" 
+                  :class="{ active: weaponSkills[w.name] === 'skilled' }" 
+                  @click="setWeaponSkill(w.name, 'skilled')"
+                >
+                  Skilled ({{ isWeaponPermitted(w.name) ? 1 : 2 }} SP)
+                </button>
+                <button 
+                  v-if="canSpecialize"
+                  type="button" 
+                  class="btn-weapon-select" 
+                  :class="{ active: weaponSkills[w.name] === 'specialized' }" 
+                  @click="setWeaponSkill(w.name, 'specialized')"
+                >
+                  Specialized ({{ primaryClass === 'champion' && freeSpecializationChoice === w.name ? 'Free' : (isWeaponPermitted(w.name) ? 1 : 2) + (['Bow, long', 'Bow, short', 'Crossbow, heavy', 'Crossbow, light'].includes(w.name) ? 2 : 1) }} SP)
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Thieving Skills percentages for Thieves and Bards -->
         <div v-if="isRogue" class="form-card mt-2">
           <h3 class="card-title">Thief Skills Percentage Adjustments</h3>
@@ -2090,7 +2406,7 @@ const validationErrors = computed(() => {
         </div>
       </div>
 
-      <!-- TAB 6: FULL PREVIEW (matches standard paper S&D sheet) -->
+      <!-- TAB 6: FULL PREVIEW (matches standard paper Sonata sheet) -->
       <div v-if="activeTab === 'preview'" class="tab-content preview-container">
         <div class="sheet-preview-banner">
           <p class="font-serif">This matches the layout of the character sheet pages. Click "Print/Save PDF" at the top of the page to print or save a copy of this pre-formatted sheet.</p>
@@ -2306,9 +2622,9 @@ const validationErrors = computed(() => {
               <tr v-for="item in inventory.filter(i => WEAPONS.some(w => w.name === i.name))" :key="item.name">
                 <td>{{ item.name }}</td>
                 <td>{{ item.rof || '1' }}</td>
-                <td>{{ item.type === 'P' || item.type === 'B' ? (dexDetails.missile >= 0 ? `+${dexDetails.missile}` : dexDetails.missile) : (strDetails.atk >= 0 ? `+${strDetails.atk}` : strDetails.atk) }}</td>
-                <td>{{ item.type === 'P' ? '0' : (strDetails.dmg >= 0 ? `+${strDetails.dmg}` : strDetails.dmg) }}</td>
-                <td>+{{ attackBonus }}</td>
+                <td>{{ getWeaponAtkAdj(item.name) + getWeaponSkillAtkBonus(item.name) >= 0 ? '+' : '' }}{{ getWeaponAtkAdj(item.name) + getWeaponSkillAtkBonus(item.name) }}</td>
+                <td>{{ getWeaponDmgAdj(item.name) + getWeaponSkillDmgBonus(item.name) >= 0 ? '+' : '' }}{{ getWeaponDmgAdj(item.name) + getWeaponSkillDmgBonus(item.name) }}</td>
+                <td>{{ getWeaponTotalAtk(item.name) }}</td>
                 <td>{{ item.dmgSM }} / {{ item.dmgL }}</td>
                 <td>{{ item.range || 'Melee' }}</td>
                 <td>{{ item.weight }} kg</td>
@@ -2359,6 +2675,10 @@ const validationErrors = computed(() => {
                 <li v-for="s in selectedSkills" :key="s" class="skill-sheet-row">
                   <span>{{ s }}</span>
                   <span class="font-sans font-bold">{{ SKILLS.find(sk => sk.name === s)?.attr.toUpperCase() }}</span>
+                </li>
+                <li v-for="(status, wName) in weaponSkills" :key="wName" v-show="status" class="skill-sheet-row">
+                  <span>{{ wName }} ({{ status === 'specialized' ? 'Specialized' : 'Skilled' }})</span>
+                  <span class="font-sans font-bold">WPN</span>
                 </li>
               </ul>
             </div>
@@ -2459,7 +2779,7 @@ const validationErrors = computed(() => {
 </template>
 
 <style scoped>
-/* Core Styling using S&D Wiki harmonized colors */
+/* Core Styling using Sonata Wiki harmonized colors */
 .character-builder-wrapper {
   margin: 20px 0;
   padding: 15px;
@@ -3504,5 +3824,102 @@ const validationErrors = computed(() => {
 
 .empty-spell-slot {
   color: #ccc;
+}
+
+/* Weapon Skills Selection UI */
+.weapon-skills-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .weapon-skills-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+}
+
+.weapon-skill-item {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  transition: border-color 0.2s;
+}
+
+.weapon-skill-item.selected {
+  border-color: #ca6129;
+}
+
+.weapon-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.weapon-name {
+  color: #fff;
+}
+
+.weapon-btn-group {
+  display: flex;
+  border: 1px solid #444;
+  border-radius: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.btn-weapon-select {
+  background: #2a2a2a;
+  border: none;
+  color: #aaa;
+  padding: 6px 10px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s;
+  outline: none;
+}
+
+.btn-weapon-select:not(:last-child) {
+  border-right: 1px solid #444;
+}
+
+.btn-weapon-select:hover {
+  background: #3a3a3a;
+  color: #fff;
+}
+
+.btn-weapon-select.active {
+  background: #ca6129;
+  color: #fff;
+  font-weight: bold;
+}
+
+.select-free-spec {
+  background: rgba(202, 97, 41, 0.1);
+  border: 1px solid #ca6129;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.select-free-spec label {
+  color: #ca6129;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.select-free-spec select {
+  background: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 6px;
+  border-radius: 4px;
+  width: 100%;
 }
 </style>
