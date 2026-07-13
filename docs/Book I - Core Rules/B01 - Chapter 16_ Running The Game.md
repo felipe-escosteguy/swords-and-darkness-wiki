@@ -102,6 +102,42 @@ Time at the table is finite. If the session ends with the dungeon un-entered bec
 
 Between sessions, the world moves. Factions pursue their agendas. A garrison the party bypassed in session four has rotated its watch schedule by session seven. This doesn't require elaborate tracking — it requires the adversary roster and the discipline to update it.
 
+## THE FOUR MOVEMENTS
+
+An important note: The Four Movements is a playstyle guide. Inspired by classical music, it's meant to help GMs recognize the direction their game is moving. It's not a ruleset or something to take away player agency.
+
+Before we dive into them, let's go back and remember two very important things:
+- First, the GM never drives the story in any aspect, but rather propose and react to what the players are doing.
+- Second, like any GM advice, this is optional. GMs who dislike what is being proposed here can ignore it altogether.
+
+The Pacing section above governs a single session. A full campaign has a rhythm of its own — longer, slower, and just as real — and it rewards the same kind of attention.
+
+Most well-run campaigns move through four recognizable phases, whether or not the GM ever names them. Call them the Four Movements: Allegro, Adagio, Scherzo, Finale. The names are borrowed from music because the shape is the same one composers work with — a theme introduced, developed, transformed by what it's been through, then resolved. The GM doesn't compose this pattern in advance. It emerges from situations played honestly, prepped the way Chapter 16 already describes. The job is to recognize the shape as it happens, not to force a table that isn't there yet into a shape it hasn't earned.
+
+- **Allegro (roughly 5–10 sessions) — the themes get introduced.** A contract that looked simple reveals layers: another faction takes notice, a hidden motive surfaces, a choice that seemed clean turns out to have cost. The GM's job here is presentation, not plotting. Put real factions on the table, each with its own goals and methods, and let the party's early choices establish loose alignments. Nothing needs deciding yet. The party is still learning who the players are.
+
+- **Adagio (roughly 8–15 sessions) — the themes compete.** Factions the party engaged with in the Allegro stop waiting and start acting on their own schedule. Resources get scarcer. Choices get harder. Reputation starts opening some doors and closing others. This is the longest movement and the one doing the most work — it's where "we can't please everyone" stops being theoretical. Track what each faction is working toward with a clock: a simple segmented track, filled in as the faction's plan advances, that makes an otherwise invisible timeline visible to the GM and, when the moment calls for it, to the players. A clock at three of six segments filled tells the table something is coming without telling them exactly when. Pair it with the Adversary Roster — the Roster tracks what a faction is doing; the clock tracks how close they are to finishing it.
+
+- **Scherzo (roughly 5–10 sessions) — the debts come due.** Everything the party did, or didn't do, across the first two movements returns with weight. Allies expect reciprocity now, not eventually. Clocks complete. A faction the party alienated stops sending warnings and starts acting. The GM's job is to apply consequences that were already set up — honestly, without inventing new ones for effect. A Scherzo has nothing to escalate if nothing was actually building underneath it, which is usually a sign the Adagio wasn't run with enough follow-through.
+
+- **Finale (roughly 2–5 sessions) — it resolves.** Nothing new needs introducing at this point. The party's specific choices across three movements have produced a specific, particular situation, and the Finale is that situation reaching its natural end. The GM's job shrinks to almost nothing: know what every relevant faction does in each plausible outcome, and let the party's actions determine which outcome happens. A Finale that pivots on a twist the GM had planned all along isn't a resolution. It's the GM overriding three movements of the party's actual choices.
+
+### RECOGNIZING THE SHIFT
+
+Players stop asking "who is this?" and start asking "what do I do about this?" — that's Allegro giving way to Adagio. Table debates start including "there's no good option here" — the Adagio is deepening. "We don't have time for this anymore" starts showing up in actual play, not just as a line — that's the Scherzo arriving. When every player at the table can say what they're trying to achieve without discussing it first, the Finale has already started, whether or not the GM called it.
+
+**Scale, not fixed length.** A one-shot compresses all four movements into a single session — Allegro in the first twenty minutes, Adagio as complication, Scherzo and Finale in the second half. A long sandbox might run several overlapping Adagios, one per active storyline, before any of them tips into a Scherzo. The session counts above are typical, not required. What doesn't change is the order: development requires exposed themes, and resolution requires accumulated stakes. A campaign can't skip to a Finale that hasn't earned its Scherzo.
+
+### COMMON FAILURE MODES
+
+**_Forcing it._** If the GM catches themselves thinking "we need to reach the Scherzo soon," the movement isn't emerging — it's being imposed. Stop. Go back to presenting situations and applying consequences, and let the shape surface on its own schedule. If it never does, the themes on the table may not be rich enough to carry one.
+
+**_An Adagio that never moves._** Fifteen sessions with no faction acting independently and no clock advancing isn't a slow Adagio. It's a stalled one. Something needs to move without the party's input, or the movement never builds the pressure a Scherzo needs to work with.
+
+**_Planning the Finale._** The moment a GM decides how the campaign "should" end, the Four Movements have stopped doing their job. Prepare several plausible resolutions and let the party's actual trajectory pick one. A Finale decided back in the Allegro isn't a resolution — it's a rail the party didn't know they were on.
+
+A campaign that completes its Four Movements honestly — real stakes accumulated, genuinely resolved — is exactly the kind of thing the Vithurian Orchestra exists to notice. See Chapter 17 and Book II, Part III for how that recognition works.
+
 ## **TABLE PROCEDURES**
 
 **Beginning the session.** Before the session starts, know three things: where the party is, what immediate situation they're in, and what will happen if they do nothing. The last is the most important. Something is always happening that the characters aren't controlling.
