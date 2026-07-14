@@ -29,15 +29,31 @@ I started writing this game years ago, and I made a promise to myself to make it
 <div class="hero-extra-text">
 
 ## How to Play
-All the content is divided throughout three books, each playing their own part. Apart from that, you will need a set of dice with d4, d6, d8, d10, d12, and d20 - the same one you use when you play any edition of Dungeons & Dragons. Character sheets can be found in the **Download** page.
+All the content is divided throughout three books, each playing their own part. Apart from that, you will need a set of dice with d4, d6, d8, d10, d12, and d20 - the same one you use when you play any edition of Dungeons & Dragons. Character sheets can be found in the **Download** section below.
 
-### Book I - Core Rules
-This book has all the mechanics you need to play S&D - from character creation to how combat and downtime works, and so on. It's the most recommended starting point for both players and the gamesmaster.
+- **Book I - Core Rules** - This book has all the mechanics you need to play S&D - from character creation to how combat and downtime works, and so on. It's the most recommended starting point for both players and the gamesmaster.
 
-### Book II - The Known World
-There are no rules covered in this book, only detailed information about the setting. Although the first book explains briefly all the ancestries and cultures of the Known World, Book II is where you learn all you need to create your own campaign.
+- **Book II - The Known World** - There are no rules covered in this book, only detailed information about the setting. Although the first book explains briefly all the ancestries and cultures of the Known World, Book II is where you learn all you need to create your own campaign.
 
-### Book III - The Darkness
-This book has information more suited for the Gamesmaster, like the bestiary, rules for magic items, and more. Although players won't find any spoilers, they can skip this one if they want.
+- **Book III - The Darkness** - This book has information more suited for the Gamesmaster, like the bestiary, rules for magic items, and more. Although players won't find any spoilers, they can skip this one if they want.
+
+</div>
+
+<div class="hero-extra-text">
+
+## Downloads
+
+- **Character Sheet** - **[LINK](<public/2026 Sonata - Swords & Darkness - Character Sheet.pdf>)**
+
+- **Map - The Known World** - **[LINK](public/map_background.jpg)**
+
+</div>
+
+<div class="hero-extra-text">
+
+## Contact
+If you would like to get in touch with me, feel free to shoot an email.
+
+***Felipe Escosteguy** - Sao Paulo, Brazil* - escosteguy.rpg@gmail.com
 
 </div>
