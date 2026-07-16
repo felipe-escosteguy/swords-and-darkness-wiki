@@ -28,7 +28,7 @@ None of that stays on the page. A faction's grudge shapes the reaction roll at t
 
 Start with the Core Rules if you want to build a character tonight. Start with the Known World if you want to understand what that character is walking into first. Either way — welcome.
 
-### This game is free, and it will stays free
+### This game is free, and it will stay free
 
 I started writing this game years ago, and I made a promise to myself to make it freely available. Everything you see here is the entire game (although still a work in progress), and you may feel free to play it as you see fit. The system is based on AD&D 2nd Edition, but there are many changes to the mechanics. A guide has been provided at the end of this page to help you use these mechanics with your favorite old-school books.
 
