@@ -20,6 +20,16 @@ hero:
 ## Heroic Fantasy & Grim Peril
 ### A retroclone of the most famous role-playing game’s second edition.
 
+**Sonata - Sword & Darkness™** is a dark fantasy retroclone of the most famous role-playing game's second edition, built on the For Gold & Glory foundation and set entirely within its own world: the Known World.
+
+The Second Era ended in catastrophe, and the Known World has spent the Third rebuilding around the wound. Eymanarann still stands frozen and empty in the north. The Known World has pushed the Darkness back before. It has never destroyed it. Player characters inherit all of it — old debts, older grudges, and ruins nobody has finished digging through.
+
+None of that stays on the page. A faction's grudge shapes the reaction roll at the table. A wight's energy drain has no saving throw, and the Bestiary explains exactly why. The three books were built to work as one system: fiction and mechanics answering to each other, line by line.
+
+Start with the Core Rules if you want to build a character tonight. Start with the Known World if you want to understand what that character is walking into first. Either way — welcome.
+
+### This game is free, and it will stays free
+
 I started writing this game years ago, and I made a promise to myself to make it freely available. Everything you see here is the entire game (although still a work in progress), and you may feel free to play it as you see fit. The system is based on AD&D 2nd Edition, but there are many changes to the mechanics. A guide has been provided at the end of this page to help you use these mechanics with your favorite old-school books.
 
 **Sonata - Sword & Darkness™** is an Open Game License interpretation of Zeb Cook's 2nd Edition rules. All material contained within is free for use, distribution, remix, adaptation, and building upon the material in any medium or format, for noncommercial purposes only, as per the Creative Commons Attribution-NonCommercial 4.0 International license.
