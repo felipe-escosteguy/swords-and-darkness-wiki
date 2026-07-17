@@ -94,5 +94,3 @@ Sonata - Swords & Darkness runs on the *For Gold & Glory* foundation, itself a r
 If you would like to get in touch with me, feel free to shoot an email.
 
 ***Felipe Escosteguy** - Sao Paulo, Brazil* - escosteguy.rpg@gmail.com
-
-</div>
