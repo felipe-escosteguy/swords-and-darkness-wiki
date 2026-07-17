@@ -112,6 +112,14 @@ h6,
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.8)); /* Add shadow to logo to match text */
 }
 
+.hero-extra-text .hero-logo {
+  width: 100%;
+  max-width: 100%;
+  max-height: none;
+  margin: 0 0 30px 0;
+  object-fit: cover;
+}
+
 @media (max-width: 480px) {
   .hero-logo {
     max-width: min(78vw, 260px);
