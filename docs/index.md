@@ -73,7 +73,7 @@ All the content is divided throughout three books, each playing their own part. 
 <div class="hero-extra-text hero-extra-text-left">
 
 ## What's Different
-Sonata - Swords & Darkness runs on the For Gold & Glory foundation, itself a retroclone of the most famous role-playing game's second edition — modernized in a few specific places.
+Sonata - Swords & Darkness runs on the For Gold & Glory foundation, itself a retroclone of the most famous role-playing game's second edition modernized in a few specific places.
 
 - **Attack Bonus replaces THAC0.** Roll d20 + Attack Bonus against Armor Class. Same math as before, restated so higher always means better.
 - **Ascending Armor Class.** Higher AC is harder to hit. A fighter in full plate has AC 19, not AC 1.
