@@ -1923,6 +1923,33 @@ const validationErrors = computed(() => {
                 <span>Raw: {{ scoresRaw[stat] }}</span>
                 <span>Final: <strong>{{ finalScores[stat] }}</strong></span>
               </div>
+
+              <div class="stat-modifiers font-serif">
+                <template v-if="stat === 'str'">
+                  <span>Atk Mod: {{ strDetails.atk >= 0 ? `+${strDetails.atk}` : strDetails.atk }}</span>
+                  <span>Dmg Mod: {{ strDetails.dmg >= 0 ? `+${strDetails.dmg}` : strDetails.dmg }}</span>
+                </template>
+                <template v-if="stat === 'dex'">
+                  <span>AC Mod: {{ dexDetails.acMod >= 0 ? `+${dexDetails.acMod}` : dexDetails.acMod }}</span>
+                  <span>Missile Mod: {{ dexDetails.missile >= 0 ? `+${dexDetails.missile}` : dexDetails.missile }}</span>
+                </template>
+                <template v-if="stat === 'con'">
+                  <span>HP Mod: {{ conDetails.hp >= 0 ? `+${conDetails.hp}` : conDetails.hp }}</span>
+                  <span>Shock: {{ conDetails.shock }}</span>
+                </template>
+                <template v-if="stat === 'int'">
+                  <span>Bonus Langs: {{ intDetails.lang }}</span>
+                  <span>Max Spell Level: {{ intDetails.maxLvl }}</span>
+                </template>
+                <template v-if="stat === 'wis'">
+                  <span>Will Mod: {{ wisDetails.def >= 0 ? `+${wisDetails.def}` : wisDetails.def }}</span>
+                  <span>Bonus Spells: {{ wisDetails.bonus }}</span>
+                </template>
+                <template v-if="stat === 'cha'">
+                  <span>Henchmen: {{ chaDetails.hench }}</span>
+                  <span>Loyalty: {{ loyaltyModText }}</span>
+                </template>
+              </div>
             </div>
           </div>
 
@@ -2467,19 +2494,19 @@ const validationErrors = computed(() => {
                       <span v-if="exceptionalPercent > 0"> (Percentile: 18/{{ exceptionalPercent }})</span>
                     </span>
                     <span v-if="stat === 'dex'">
-                      Surprise/Reflex Mod: {{ dexDetails.surprise >= 0 ? `+${dexDetails.surprise}` : dexDetails.surprise }} | AC Mod: {{ dexDetails.acMod >= 0 ? `+${dexDetails.acMod}` : dexDetails.acMod }} | Missile: {{ dexDetails.missile >= 0 ? `+${dexDetails.missile}` : dexDetails.missile }}
+                      AC Mod: {{ dexDetails.acMod >= 0 ? `+${dexDetails.acMod}` : dexDetails.acMod }} | Missile Mod: {{ dexDetails.missile >= 0 ? `+${dexDetails.missile}` : dexDetails.missile }} | Surprise Mod: {{ dexDetails.surprise >= 0 ? `+${dexDetails.surprise}` : dexDetails.surprise }}
                     </span>
                     <span v-if="stat === 'con'">
-                      HP Mod: {{ conDetails.hp >= 0 ? `+${conDetails.hp}` : conDetails.hp }} | System Shock: {{ conDetails.shock }} | Resurrection: {{ conDetails.res }}
+                      HP Mod: {{ conDetails.hp >= 0 ? `+${conDetails.hp}` : conDetails.hp }} | Shock: {{ conDetails.shock }} | Resurrection: {{ conDetails.res }}
                     </span>
                     <span v-if="stat === 'int'">
                       Bonus Langs: {{ intDetails.lang }} | Max Spell Level: {{ intDetails.maxLvl }} | Learn Spell: {{ intDetails.learn }}
                     </span>
                     <span v-if="stat === 'wis'">
-                      Will Modifier: {{ wisDetails.def >= 0 ? `+${wisDetails.def}` : wisDetails.def }} | Priest Bonus Spells: {{ wisDetails.bonus }}
+                      Will Mod: {{ wisDetails.def >= 0 ? `+${wisDetails.def}` : wisDetails.def }} | Bonus Spells: {{ wisDetails.bonus }}
                     </span>
                     <span v-if="stat === 'cha'">
-                      Max Henchmen: {{ chaDetails.hench }} | Loyalty: {{ loyaltyModText }} | Reaction: {{ reactionModText }}
+                      Henchmen: {{ chaDetails.hench }} | Loyalty: {{ loyaltyModText }} | Reaction: {{ reactionModText }}
                     </span>
                   </div>
                 </div>

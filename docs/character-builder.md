@@ -1,5 +1,5 @@
 ---
-title: Character Builder (Beta)
+title: Character Builder
 aside: false
 ---
 
