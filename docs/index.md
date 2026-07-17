@@ -70,7 +70,7 @@ All the content is divided throughout three books, each playing their own part. 
 
 </div>
 
-<div class="hero-extra-text">
+<div class="hero-extra-text hero-extra-text-left">
 
 ## What's Different
 Sonata - Swords & Darkness runs on the For Gold & Glory foundation, itself a retroclone of the most famous role-playing game's second edition — modernized in a few specific places.

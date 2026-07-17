@@ -148,6 +148,14 @@ h6,
   padding: 0 20px;
 }
 
+.hero-extra-text-left {
+  text-align: left;
+}
+
+.hero-extra-text-left p {
+  text-align: left;
+}
+
 .hero-extra-text h2 {
   font-family: var(--vp-font-family-alt);
   font-size: 32px;
