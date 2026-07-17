@@ -1,6 +1,9 @@
 import { defineConfig } from 'vitepress'
 import fs from 'fs'
 import path from 'path'
+import { fileURLToPath } from 'url'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 function getSidebarItems(dir) {
   const fullPath = path.resolve(__dirname, '../', dir)
@@ -20,15 +23,19 @@ function getSidebarItems(dir) {
   })
 }
 
+const head = [
+  ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+  ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+  ['link', { href: 'https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap', rel: 'stylesheet' }],
+  ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-8ZR2VRDMD5' }],
+  ['script', {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8ZR2VRDMD5');`]
+]
+
 export default defineConfig({
   title: "Swords & Darkness",
   description: "Campaign setting and rules wiki",
   appearance: 'force-dark',
-  head: [
-    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    ['link', { href: 'https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap', rel: 'stylesheet' }]
-  ],
+  head,
   themeConfig: {
     logo: { light: '/logo-black.png', dark: '/logo-white.png' },
     siteTitle: false,
