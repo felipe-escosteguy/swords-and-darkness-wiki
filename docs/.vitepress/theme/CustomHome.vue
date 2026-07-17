@@ -68,11 +68,36 @@
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   height: 90vh;
-  min-height: 700px;
+  min-height: 520px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: auto;
+    min-height: 68vh;
+    padding: 60px 0 40px;
+  }
+
+  .hero-content {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .hero-title-box {
+    min-width: unset;
+    width: min(92vw, 560px);
+    padding: 24px 20px;
+    margin-bottom: 28px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 16px;
+  }
 }
 
 .hero-banner-bg {
