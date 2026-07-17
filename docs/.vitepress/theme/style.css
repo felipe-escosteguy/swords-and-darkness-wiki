@@ -102,11 +102,29 @@ h6,
 
 /* Center the logo in the hero section */
 .hero-logo {
-  max-width: 450px;
+  max-width: min(90vw, 450px);
   width: 100%;
+  height: auto;
+  max-height: min(32vh, 260px);
+  object-fit: contain;
   margin: 0 auto 30px auto; /* Increased bottom margin for more space */
   display: block;
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.8)); /* Add shadow to logo to match text */
+}
+
+@media (max-width: 480px) {
+  .hero-logo {
+    max-width: min(78vw, 260px);
+    max-height: min(20vh, 140px);
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .hero-logo {
+    max-width: min(84vw, 360px);
+    margin-bottom: 20px;
+  }
 }
 
 /* Adjust logo to fit navbar properly */

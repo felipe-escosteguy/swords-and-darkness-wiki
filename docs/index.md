@@ -53,6 +53,8 @@ All the content is divided throughout three books, each playing their own part. 
 
 ## Downloads
 
+- **Character Sheet (form-fillable)** - **Soon
+
 - **Character Sheet** - **[LINK](https://drive.google.com/file/d/1tvxE7wFn9NjoRheWaBRfmnxJENe02FzJ/view?usp=drive_link)**
 
 - **Map - The Known World** - **[LINK](https://drive.google.com/file/d/1hdNkKfazIvy2SGeHYt8a4OFaxzFaHgrm/view?usp=drive_link)**
