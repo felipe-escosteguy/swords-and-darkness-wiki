@@ -13,6 +13,7 @@ hero:
     - theme: alt
       text: The Known World
       link: /Book II - The Known World/B02 - Chapter 00_ Introduction
+      
 ---
 
 <div class="hero-extra-text">
@@ -57,11 +58,15 @@ All the content is divided throughout three books, each playing their own part. 
 
 ## Downloads
 
-- **Character Sheet (form-fillable)** - **Soon
+- **Character Sheet (form-fillable)** - Soon
 
 - **Character Sheet** - **[LINK](https://drive.google.com/file/d/18WgTT1TY1VHpWnvVvh-rF0085NvTbOUu/view?usp=drive_link)**
 
 - **Map - The Known World** - **[LINK](https://drive.google.com/file/d/1hdNkKfazIvy2SGeHYt8a4OFaxzFaHgrm/view?usp=drive_link)**
+
+- **Map - The Known World (with grids)** - Soon
+
+- **Map - The Known World (for Foundry VTT)** - Soon
 
 </div>
 
