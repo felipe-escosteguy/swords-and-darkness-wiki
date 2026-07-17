@@ -72,6 +72,28 @@ All the content is divided throughout three books, each playing their own part. 
 
 <div class="hero-extra-text">
 
+<div class="hero-extra-text">
+
+<img src="/sonata-books-mockup.png" class="hero-logo" alt="The three Sonata books">
+
+## What's Different
+Sonata - Swords & Darkness runs on the For Gold & Glory foundation, itself a retroclone of the most famous role-playing game's second edition — modernized in a few specific places.
+
+- **Attack Bonus replaces THAC0.** Roll d20 + Attack Bonus against Armor Class. Same math as before, restated so higher always means better.
+- **Ascending Armor Class.** Higher AC is harder to hit. A fighter in full plate has AC 19, not AC 1.
+- **Initiative is rolled every round, high roll first.** Faster weapons and higher ground now push your number up instead of down.
+- **Saving throws collapse to three: Fortitude, Reflex, Will.** Tied to Constitution, Dexterity, and Wisdom, and set independently from level 1 — attribute drain no longer weakens both your body and your saves at once.
+- **Non-weapon proficiencies measure quality, not permission.** Anyone can cook a meal or bandage a wound. A trained character does it well.
+- **Dual-classing is gone. Multiclassing is universal.** Any character can run a Primary and Secondary class side by side with no dead period, and humans get one lifetime swap of which class leads.
+
+### The New Systems
+- **Spell components shape a spell now, not gate it.** Miss the material component and the casting still goes off — the potency, range, or area just drops instead.
+- **Downtime runs its own seasonal cycle.** Train, study, research, craft, recover, work a faction, or run a long-term project — each one gated by resources earned during active play, so what you bring back from a dungeon decides what you can do at rest.
+- **Ancestry means something between adventures too.** Every ancestry answers its own seasonal question — Badaki mark passing seasons against a hard lifespan, Húldar account for how much of themselves they still feel, Duergar and Duardeen answer to clan debts. It's mechanical weight behind the ancestry fluff, not decoration.
+
+
+</div>
+
 ## Contact
 If you would like to get in touch with me, feel free to shoot an email.
 
