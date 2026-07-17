@@ -3,7 +3,7 @@ layout: home
 pageClass: home-background
 
 hero:
-  name: <img src="/logo-white.png" class="hero-logo" alt="Swords & Darkness">
+  name: <img src="/logo-white.png" class="hero-logo" alt="Sonata - Swords & Darkness">
   text: "Core Rules & World Bible"
   tagline: "The complete guide to the campaign setting"
   actions:
@@ -38,10 +38,12 @@ I started writing this game years ago, and I made a promise to myself to make it
 
 <div class="hero-extra-text">
 
+<img src="/sonata-books-mockup.png" class="hero-logo" alt="The three Sonata books">
+
 ## How to Play
 All the content is divided throughout three books, each playing their own part. Apart from that, you will need a set of dice with d4, d6, d8, d10, d12, and d20 - the same one you use when you play any edition of Dungeons & Dragons. Character sheets can be found in the **Download** section below.
 
-- **BOOK I - CORE RULES** - This book has all the mechanics you need to play S&D - from character creation to how combat and downtime works, and so on. It's the most recommended starting point for both players and the gamesmaster.
+- **BOOK I - CORE RULES** - This book has all the mechanics you need to play - from character creation to how combat and downtime works, and so on. It's the most recommended starting point for both players and the gamesmaster.
 
 - **BOOK II - THE KNOWN WORLD** - There are no rules covered in this book, only detailed information about the setting. Although the first book explains briefly all the ancestries and cultures of the Known World, Book II is where you learn all you need to create your own campaign.
 
@@ -55,7 +57,7 @@ All the content is divided throughout three books, each playing their own part. 
 
 - **Character Sheet (form-fillable)** - **Soon
 
-- **Character Sheet** - **[LINK](https://drive.google.com/file/d/1tvxE7wFn9NjoRheWaBRfmnxJENe02FzJ/view?usp=drive_link)**
+- **Character Sheet** - **[LINK](https://drive.google.com/file/d/18WgTT1TY1VHpWnvVvh-rF0085NvTbOUu/view?usp=drive_link)**
 
 - **Map - The Known World** - **[LINK](https://drive.google.com/file/d/1hdNkKfazIvy2SGeHYt8a4OFaxzFaHgrm/view?usp=drive_link)**
 
