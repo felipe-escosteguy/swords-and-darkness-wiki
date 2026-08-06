@@ -18,13 +18,13 @@ To take a secondary class, a character must have a score of 13 or higher in that
 
 ### **Table 4.1: Core Attributes for Multiclass Entry**
 
-| Class | Core Attribute |
-| ----- | ----- |
-| Fighter, Ranger, Paladin, Champion | Strength |
-| Mage | Intelligence |
-| Sorcerer | Wisdom |
-| Cleric, Druid | Wisdom |
-| Thief, Bard | Dexterity |
+| Class                              | Core Attribute |
+| ---------------------------------- | -------------- |
+| Fighter, Ranger, Paladin, Champion | Strength       |
+| Mage                               | Intelligence   |
+| Sorcerer                           | Charisma       |
+| Cleric, Druid                      | Wisdom         |
+| Thief, Bard                        | Dexterity      |
 
 All ancestry restrictions from Chapter 2 and class restrictions from Chapter 3 apply to secondary classes as well. A character cannot multiclass into a class unavailable to their ancestry, and racial level caps apply to each class individually within a multiclass configuration.
 

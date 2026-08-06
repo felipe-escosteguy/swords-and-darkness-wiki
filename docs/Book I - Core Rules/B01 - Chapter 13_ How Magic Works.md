@@ -178,7 +178,7 @@ A Sorcerer may spend HP down to 0 — they fall unconscious immediately after th
 
 A Sorcerer stripped of everything — gear gone, dungeon walls closing in — can still burn. What they pay is what they have.
 
-The daily cap follows the same table as Mages, but uses the Sorcerer's **Wisdom score** as the lookup value instead of Intelligence. This is consistent with the Sorcerer class, where Wisdom is the prime requisite and governs spell capacity. The once-per-rest-per-spell restriction applies identically. The cap is governed by Wisdom, not Charisma.
+The daily cap follows the same table as Mages, but uses the Sorcerer's **Charisma score** as the lookup value instead of Intelligence. This is consistent with the Sorcerer class, where Wisdom is the prime requisite and governs spell capacity. The once-per-rest-per-spell restriction applies identically. 
 
 #### **Bards and Components**
 

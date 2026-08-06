@@ -25,18 +25,18 @@ All classes carry minimum ability score requirements. Characters who do not meet
 
 ### **Table 3.1: Class Ability Score Requirements**
 
-| Class | STR | DEX | CON | INT | WIS | CHA |
-| ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Fighter | 9 | — | — | — | — | — |
-| Paladin | 12 | — | — | — | 13 | 17 |
-| Ranger | 13 | 13 | 14 | — | 14 | — |
-| Champion | 12 | — | — | — | 13 | 17 |
-| Mage | — | — | — | 9 | — | — |
-| Sorcerer | — | — | 10 | — | 13 | — |
-| Cleric | — | — | — | — | — | — |
-| Druid | — | — | — | — | 12 | 15 |
-| Thief | — | — | — | — | — | — |
-| Bard | — | 12 | — | 13 | — | 13 |
+| Class    | STR | DEX | CON | INT | WIS | CHA |
+| -------- | --- | --- | --- | --- | --- | --- |
+| Fighter  | 9   | —   | —   | —   | —   | —   |
+| Paladin  | 12  | —   | —   | —   | 13  | 17  |
+| Ranger   | 13  | 13  | 14  | —   | 14  | —   |
+| Champion | 12  | —   | —   | —   | 13  | 17  |
+| Mage     | —   | —   | —   | 9   | —   | —   |
+| Sorcerer | —   | —   | 10  | —   | —   | 13  |
+| Cleric   | —   | —   | —   | —   | —   | —   |
+| Druid    | —   | —   | —   | —   | 12  | 15  |
+| Thief    | —   | —   | —   | —   | —   | —   |
+| Bard     | —   | 12  | —   | 13  | —   | 13  |
 
 Characters who meet their class's prime requisite receive a \+10% bonus to earned experience. Prime requisites are noted in each class entry.
 
@@ -295,6 +295,7 @@ Duskhold trains Champions in the Way of Boros. For non-Badakis, entry requires a
 
 Wizards advance slowly in combat. Their hit dice are small, their weapon and armor options are narrow, and their attack bonuses accumulate at one-third the rate of Warriors. These are not oversights — they are the cost of magic. A wizard at full capacity outranges and outscales most other classes in raw effect. A wizard who has spent their prepared spells for the day is a problem their party has to protect.
 
+
 ---
 
 ### **MAGE**
@@ -364,15 +365,44 @@ If a mage fails their trial, they will be kept in Apprentice status and can atte
 
 Upon completing the Gauntlet, a Mage may choose a new name. The Order does not require it. What it recognizes is that the Adept who survived the Gauntlet is not the person who entered — the trial strips pretense from a mage's relationship to magic in ways that are hard to explain to anyone who hasn't been through it. A new name, chosen by the Adept alone, is one way to mark what changed. Some keep the name they were born with. Some spend years deciding. The Order files both and recognizes whichever the Adept prefers. What the Order does not recognize is the name being chosen by anyone other than the Adept.
 
+Mage and Sorcerer draw from the same spell progression, keyed to character level. Specialist Mages add one additional slot per level in their chosen school — that addition is detailed under Mage, not in the table below.
+
+### Mage Spell Progression
+
+| Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| :---: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|   1   |  1  |  –  |  –  |  –  |  –  |  –  |  –  |  –  |  –  |
+|   2   |  2  |  –  |  –  |  –  |  –  |  –  |  –  |  –  |  –  |
+|   3   |  2  |  1  |  –  |  –  |  –  |  –  |  –  |  –  |  –  |
+|   4   |  3  |  2  |  –  |  –  |  –  |  –  |  –  |  –  |  –  |
+|   5   |  4  |  2  |  1  |  –  |  –  |  –  |  –  |  –  |  –  |
+|   6   |  4  |  2  |  2  |  –  |  –  |  –  |  –  |  –  |  –  |
+|   7   |  4  |  3  |  2  |  1  |  –  |  –  |  –  |  –  |  –  |
+|   8   |  4  |  3  |  3  |  2  |  –  |  –  |  –  |  –  |  –  |
+|   9   |  4  |  3  |  3  |  2  |  1  |  –  |  –  |  –  |  –  |
+|  10   |  4  |  4  |  3  |  2  |  2  |  –  |  –  |  –  |  –  |
+|  11   |  4  |  4  |  4  |  3  |  3  |  –  |  –  |  –  |  –  |
+|  12   |  4  |  4  |  4  |  4  |  4  |  1  |  –  |  –  |  –  |
+|  13   |  5  |  5  |  5  |  4  |  4  |  2  |  –  |  –  |  –  |
+|  14   |  5  |  5  |  5  |  4  |  4  |  2  |  1  |  –  |  –  |
+|  15   |  5  |  5  |  5  |  5  |  5  |  2  |  1  |  –  |  –  |
+|  16   |  5  |  5  |  5  |  5  |  5  |  3  |  2  |  1  |  –  |
+|  17   |  5  |  5  |  5  |  5  |  5  |  3  |  3  |  2  |  –  |
+|  18   |  5  |  5  |  5  |  5  |  5  |  3  |  3  |  2  |  1  |
+|  19   |  5  |  5  |  5  |  5  |  5  |  3  |  3  |  3  |  1  |
+|  20   |  5  |  5  |  5  |  5  |  5  |  4  |  3  |  3  |  2  |
+
 ---
 
 ### **SORCERER**
 
 Sorcerers do not study magic. They receive it — from a patron, a teacher, an entity with power and a reason to share some fraction of it. The distinction is philosophically significant in the Known World and practically significant at the table. A Mage who loses their grimoire can reconstruct it. A Sorcerer who loses their patron has lost the only channel through which they learn anything new.
 
+What a Sorcerer brings to that exchange isn't scholarship. It's the force of personality that caught a patron's attention in the first place, and the nerve to keep asking for more once the relationship is running. That's a different currency than the insight or self-possession Wisdom measures — closer to the pressure a court favorite applies to a monarch, or a con artist to a mark, if the mark happened to be an entity with power over the fabric of reality.
+
 The First Gift of Magic, in the theology of the Three Sisters, went to the Eymanarynn — the original dragonkin from whom the Vartran descend — and to the Húldar, through Ilya's direct intervention before the Second Era. Sorcery, for these ancestries, is reaching back toward something that was always theirs. Aelár carries that inheritance more tenuously — the same blood, the same ancient claim, attenuated by centuries of dispersal — and the Hyerophancy is less willing to acknowledge it from them than from Húldar. For Humans, it is reaching toward something they were never meant to have, acquired through the specific contract of a patron relationship.
 
-A Sorcerer who cannot name their patron is not a Sorcerer. This is a practical rule as much as a philosophical one: the Known World has things in it that offer magical teaching for reasons of their own, and a Sorcerer who does not know what their patron is and what it wants has made a commitment they do not fully understand. The GM should work with the player at character creation to establish the patron's nature — it need not be known to other characters, but it should be known to the player.
+A Sorcerer who cannot name their patron is not a Sorcerer. This is a practical rule as much as a philosophical one: the Known World has things in it that offer magical teaching for reasons of their own, and a Sorcerer who does not know what their patron is and what it wants has made a commitment they do not fully understand. The GM should work with the player at character creation to establish the patron's nature — it need not be known to other characters, but it should be known to the player. That same conversation should settle the Sorcerer's declared School (see Schools of Magic, below): the mechanical shape of what the patron actually teaches.
 
 **Social position by ancestry.**
 
@@ -384,13 +414,15 @@ Aelár Sorcerers carry the same ancestral argument Húldar do — the First Gift
 
 Human Sorcerers carry no ancestral legitimacy and no ancestral stigma. They found an arrangement that works and are using it.
 
-**Prime Requisite.** Wisdom.
+**Prime Requisite.** Charisma.
 
-**Requirements.** WIS 13, CON 10\.
+**Requirements.** CHA 13, CON 10.
 
-**Available To.** Human, Vartran, Húldar, Aelár only.
+**Available To.** Human, Vartran, Húldar, Aelár, Val'arian* only.
 
-**Hit Dice.** d4, through level 10\. \+1 HP/level thereafter.
+ * * *Val'arian Sorcerers usually take one of the Nine as their patron, though this isn't mandatory. See Book II, Chapter 6: Religion & the Divine for more on them.
+
+**Hit Dice.** d4, through level 10. +1 HP/level thereafter.
 
 **Weapons.** Dagger, staff, dart, sling. No armor.
 
@@ -398,28 +430,30 @@ Human Sorcerers carry no ancestral legitimacy and no ancestral stigma. They foun
 
 **Advancement.** → Table 3.6: Mage/Sorcerer Advancement.
 
-#### **Special Abilities**
+#### Special Abilities
 
-**Skill Points.** Sorcerers start with 6 Skill Points (SPs) that can be used to purchase Combat and Non-Combat Skills. See chapters 6 and 7\.
+**Skill Points.** Sorcerers start with 6 Skill Points (SPs) that can be used to purchase Combat and Non-Combat Skills. See chapters 6 and 7.
 
-**Arcane Attunement.** Sorcerers do not use spellbooks. They know their spells — taught and internalized through meditation. The number of spells a Sorcerer knows per spell level is determined by Wisdom rather than Intelligence (consult the Max Spells Per Level column in Table 1.5 in place of the Intelligence equivalent). Adding a new spell requires instruction from their patron or another Sorcerer who knows the spell, followed by a number of days of meditation equal to the spell's level. No Learn Spell roll is required; if the instruction and meditation are completed, the spell is learned.
+**Arcane Attunement.** Sorcerers do not use spellbooks. They know their spells — taught and internalized through meditation. Adding a new spell requires instruction from their patron or another Sorcerer who knows the spell, followed by a number of days of meditation equal to the spell's level. No Learn Spell roll is required; if the instruction and meditation are completed, and the spell falls within the Sorcerer's permitted schools (see Schools of Magic, below), it is learned.
 
-**Spell Memorization.** As Mage. Sorcerers memorize from their internalized knowledge rather than a written grimoire.
+**Spell Memorization.** As Mage, but Sorcerers memorize from their internalized knowledge rather than a written grimoire, and consult Table 3.X: Sorcerer Spell Progression rather than the Wizard table in Appendix A.
 
 **Cannot Use Scrolls.** Sorcerers cannot read magic. The written formula of a scroll represents a tradition of arcane scholarship — structured notation, theoretical underpinning, precise symbolic language — that a Sorcerer has never acquired. They can identify that a scroll is magical, and they understand what it does if they already know the spell. They cannot cast from it. This is not a limitation that can be trained away; it is a fundamental difference in how Sorcerers receive and hold magical knowledge.
 
-**Schools of Magic.** Sorcerers practice as generalists. The specialization path is not available to them — Sorcerous knowledge is received, not architecturally constructed, and the patron determines what is and is not taught.
+**Schools of Magic.** At character creation, a Sorcerer declares a School reflecting their patron's nature — the same nine schools and opposition pairs a Specialist Mage consults (see Schools of Magic and Opposition, under Mage). A Sorcerer functions as a Specialist for spell-slot purposes: one additional spell slot per spell level, gained at the same levels a Specialist Mage gains it, already built into Table 3.X. Where the two traditions diverge is what can fill that slot. A Specialist Mage's bonus slot is locked to their chosen school; a Sorcerer's bonus slot accepts any spell outside their opposed schools, regardless of which permitted school it belongs to.
+
+That flexibility comes with a narrower gate elsewhere. A Specialist Mage can still reach their secondary-opposed school, at double the slot cost. A Sorcerer cannot: every school listed as opposed to their declared School — one entry or two — is entirely off the patron's curriculum, not costly to access, simply absent from it. A Sorcerer's overall spell selection ends up narrower than a Mage's despite the shared framework. A patron teaches what a patron teaches, and there's no equivalent of independent study to work around it.
 
 **Arcane Surge.** A Sorcerer may push beyond their memorized slots by drawing directly on their life force. When casting a spell from a memorized slot, the Sorcerer may choose one of two effects before rolling:
 
-* *Potency Boost:* The spell is cast at enhanced effect — damage increases by one die step, or effect strength improves by one category, or the target's saving throw is made at −2. Cost: HP equal to the spell's level × 3\.  
-* *Double-Cast:* The memorized slot is not expended on this casting. The Sorcerer may cast the same spell once more before their next rest, at which point the slot is expended normally. Cost: HP equal to the spell's level × 5\.
+- _Potency Boost:_ The spell is cast at enhanced effect — damage increases by one die step, or effect strength improves by one category, or the target's saving throw is made at −2. Cost: HP equal to the spell's level × 3.
+- _Double-Cast:_ The memorized slot is not expended on this casting. The Sorcerer may cast the same spell once more before their next rest, at which point the slot is expended normally. Cost: HP equal to the spell's level × 5.
 
 The Sorcerer chooses which benefit to take at the moment of casting, before any dice are rolled. HP spent this way cannot reduce the Sorcerer below 0 — a Sorcerer at 3 HP cannot Double-Cast a 2nd-level spell. A Sorcerer reduced to exactly 0 HP by this cost falls unconscious immediately after the spell resolves.
 
-The total number of surges per day — both Potency Boosts and Double-Casts combined — is determined by the Sorcerer's Wisdom score, using the same cap table as Mages (who use Intelligence in its place). The once-per-rest-per-spell restriction also applies: the same spell cannot be Double-Cast twice in a single day. See Chapter 13 for the full cap table. Sorcerers do not use material components for this purpose. The cost is themselves.
+The total number of surges per day — both Potency Boosts and Double-Casts combined — is determined by the Sorcerer's Charisma score, using the same cap table as Mages (who use Intelligence in its place). The once-per-rest-per-spell restriction also applies: the same spell cannot be Double-Cast twice in a single day. See Chapter 13 for the full cap table. Sorcerers do not use material components for this purpose. The cost is themselves.
 
-#### **Patrons**
+#### Patrons
 
 **Patron Bond.** Once per session, a Sorcerer may meditate briefly to ask their patron a question. The patron is not omniscient, not always willing to answer, and not reliably honest. The GM plays the patron. This is not a mechanical ability with defined outcomes, but an established fictional relationship with ongoing consequences: the patron is a recurring NPC with their own agenda, their demands will arrive at inconvenient moments, and the obligations they create fall on the Sorcerer in ways the rest of the party did not sign up for and will have opinions about.
 
@@ -433,7 +467,39 @@ If they do, the patron withdraws their teaching. The Sorcerer retains spells alr
 
 Repeated refusals escalate. Two refusals might mean the patron communicates displeasure directly; three might mean active interference in the Sorcerer's activities; a fourth might mean the patron calls in obligations of their own. A patron who considers the relationship definitively broken may strip the Sorcerer of previously learned spells.
 
-*The once-every-three-sessions default assumes a campaign where the patron relationship is a recurring pressure rather than the campaign's central focus. GMs running a campaign where the patron is central can increase frequency. The d6 roll is a prompt, not a mandate — if a 1 comes up at a moment that would derail rather than enrich the session, hold the demand for a better entry point.*
+_The once-every-three-sessions default assumes a campaign where the patron relationship is a recurring pressure rather than the campaign's central focus. GMs running a campaign where the patron is central can increase frequency. The d6 roll is a prompt, not a mandate — if a 1 comes up at a moment that would derail rather than enrich the session, hold the demand for a better entry point._
+
+
+### **Sorcerer Spellcasting**
+
+A Sorcerer declares a School at character creation, reflecting their patron's nature, and functions as a Specialist for spell-slot purposes: one additional spell slot per spell level, gained at the same levels a Mage Specialist would gain it. Unlike a Mage's bonus slot, which is locked to the chosen school, a Sorcerer's bonus slot can hold any spell outside their opposed and secondary-opposed schools — narrower access than a Mage's, who can still reach the secondary-opposed school at double slot cost.
+
+A patron's teaching has a ceiling. Sorcerers never gain access to spells above 7th level — the slots a Mage would spend unlocking 8th and 9th level instead deepen what a Sorcerer already knows: one extra 6th-level slot from the level a Mage would gain 8th-level spells, one extra 7th-level slot from the level a Mage would gain 9th. Mages remain the only casters who reach 8th- and 9th-level magic, and retain the broader spell selection overall.
+
+#### Sorcerer Spell Progression
+
+| Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th |
+| :---: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|   1   |  2  |  –  |  –  |  –  |  –  |  –  |  –  |
+|   2   |  3  |  –  |  –  |  –  |  –  |  –  |  –  |
+|   3   |  3  |  2  |  –  |  –  |  –  |  –  |  –  |
+|   4   |  4  |  3  |  –  |  –  |  –  |  –  |  –  |
+|   5   |  5  |  3  |  2  |  –  |  –  |  –  |  –  |
+|   6   |  5  |  3  |  3  |  –  |  –  |  –  |  –  |
+|   7   |  5  |  4  |  3  |  2  |  –  |  –  |  –  |
+|   8   |  5  |  4  |  4  |  3  |  –  |  –  |  –  |
+|   9   |  5  |  4  |  4  |  3  |  2  |  –  |  –  |
+|  10   |  5  |  5  |  4  |  3  |  3  |  –  |  –  |
+|  11   |  5  |  5  |  5  |  4  |  4  |  –  |  –  |
+|  12   |  5  |  5  |  5  |  5  |  5  |  2  |  –  |
+|  13   |  6  |  6  |  6  |  5  |  5  |  3  |  –  |
+|  14   |  6  |  6  |  6  |  5  |  5  |  3  |  2  |
+|  15   |  6  |  6  |  6  |  6  |  6  |  3  |  2  |
+|  16   |  6  |  6  |  6  |  6  |  6  |  5  |  3  |
+|  17   |  6  |  6  |  6  |  6  |  6  |  5  |  4  |
+|  18   |  6  |  6  |  6  |  6  |  6  |  5  |  5  |
+|  19   |  6  |  6  |  6  |  6  |  6  |  5  |  5  |
+|  20   |  6  |  6  |  6  |  6  |  6  |  6  |  5  |
 
 ---
 
@@ -452,6 +518,7 @@ Repeated refusals escalate. Two refusals might mean the patron communicates disp
 | 9 | 135,000 | 9d4 | \+3 |
 | 10 | 250,000 | 10d4 | \+3 |
 | 11+ | \+375,000/level | \+1 HP/level | \+1 per 3 levels |
+
 
 ---
 
