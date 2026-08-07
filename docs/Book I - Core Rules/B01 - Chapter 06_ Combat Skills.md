@@ -20,7 +20,7 @@ Characters receive skill points at 1st level and gain additional points as they 
 
 **Intelligence bonus.** The bonus languages score from Table 1.4 may be added in whole or in part to skill points at 1st level, at the GM's discretion.
 
-**Starting trade or knowledge.** Every character receives one free Trade or Knowledge skill at character creation, representing their life before adventuring. This skill is chosen freely and does not cost a skill point.
+**Starting trade or knowledge.** Every character receives one free Trade or Knowledge skill at character creation, representing their life before adventuring. This skill is chosen freely and does not cost a skill point. Solaran characters can purchase Read/Write Language (Solaran) even if they are Warriors.
 
 **Minimum Skill Spend.** At character creation, Wizards need to spend at least 4 SP in Non-Combat Skills. Fighters need to spend at least 3 SP in Combat Skills. Rogues and Priests have no minimum spend, except that no character can start the game with all their SP allocated in only one group (Combat Skills or Non-Combat Skills).
 

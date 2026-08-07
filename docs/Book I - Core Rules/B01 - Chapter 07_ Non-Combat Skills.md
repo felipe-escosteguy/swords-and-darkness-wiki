@@ -47,7 +47,10 @@ If the assisting character rolls a 20, they impose a −2 penalty instead — th
 Some skills cannot be assisted, either because the task is solitary by nature or because intervention would be counterproductive. The GM has final judgment. Assisting a skill check always requires proficiency in that skill; assisting an ability check requires only that the situation permits it.
 
 ---
+## **Purchasing Class-Restricted Skills**  
+With the GM's approval and a teacher, a character can learn a skill restricted to another class by spending twice the skill's normal cost.
 
+---
 ## **Optional Rule: Additional Skill Points**
 
 Adventurers receive few skill points by design — their primary specialization is adventuring, and the class system reflects that. Players who want more self-sufficient characters may use the following variant: characters receive their starting skill point total again every 3rd or 4th level (GM's choice). This increases breadth but reduces the differentiation between specialists. When multiple characters share equal proficiency in a skill, only the most proficient character rolls for group tasks.
@@ -112,6 +115,10 @@ Jump distances use the notation **result × 30 cm**, where the result is the dic
 * *Running Vertical Jump:* (1d3 \+ half-level) × 30 cm; maximum of one-and-a-half times the character's height.  
 * *Standing Vertical Jump:* 1 m.  
 * *Pole Vault:* Requires a 9 m running start and a pole 1.2–3 m longer than the character's height. Maximum distance equals one-and-a-half times the pole's length. A vault exceeding half the pole's length ends with the character prone; shorter vaults can be landed on the feet.
+
+---
+
+**Languages, Modern** _(General)_ A spoken language with an available teacher. One skill point per language. Literacy is not included unless the script derives from a language the character already reads. A character cannot exceed their Intelligence language limit regardless of skill investment.
 
 ---
 
@@ -184,7 +191,7 @@ Jump distances use the notation **result × 30 cm**, where the result is the dic
 
 ---
 
-**Read/Write Language** *(Rogue/Wizard; 1 point)* Literacy in a language the character already speaks. Unless a language's script derives from Common or a language the character already reads, literacy is not included in the Modern Language skill. One skill point per language.
+**Read/Write Language** _(Priest/Rogue/Wizard; 1 point)_ Literacy in a language the character already speaks. The first language costs 1 skill point. Each additional language's literacy costs 2 skill points — multiple literacy is rare even among the literate minority.
 
 ---
 

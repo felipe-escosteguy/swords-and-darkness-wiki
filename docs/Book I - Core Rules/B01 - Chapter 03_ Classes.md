@@ -717,18 +717,17 @@ Thieving skill scores and advancement tables are in Appendix B.
 | 11+ | \+220,000/level | \+2 HP/level | \+1 per 2 levels |
 
 ---
-
 ### **BARD**
 
 Bards are the Known World's professional carriers of story. They collect accounts of significant deeds, negotiate their way through social situations that would stop other classes entirely, and move between factions in a way that no other profession manages — because information is a commodity that almost everyone values, and Bards hold more of it than they appear to.
 
-In the Known World, the shadow of the Vithurian Orchestra falls over every practicing Bard. The Orchestra is not an institution that accepts members, but a standard of excellence at which the best Bards aim and against which all Bards are quietly measured. A Bard who has been immortalized in the Orchestra's annals is a different kind of person than one who merely calls themselves a Bard. Most Bards who take contracts alongside mercenary companies are doing so because interesting things happen around people who are paid to solve dangerous problems, and interesting things make better material than tavern gossip.
+In the Known World, the shadow of the Vithurian Orchestra falls over every practicing Bard. The Orchestra is not an institution that accepts members — it is a standard of excellence at which the best Bards aim and against which all Bards are quietly measured. A Bard who has been immortalized in the Orchestra's annals is a different kind of person than one who merely calls themselves a Bard. Most Bards who take contracts alongside mercenary companies are doing so because interesting things happen around people who are paid to solve dangerous problems, and interesting things make better material than tavern gossip.
 
-**Prime Requisite.** Charisma.
+**Prime Requisite.** Dexterity and Charisma.
 
-**Requirements.** DEX 12, INT 13, CHA 13\.
+**Requirements.** DEX 12, INT 13, CHA 13.
 
-**Hit Dice.** d6, through level 10\. \+2 HP/level thereafter.
+**Hit Dice.** d6, through level 10. +2 HP/level thereafter.
 
 **Weapons.** Any. Bards cannot wear metal armor while using their performance abilities.
 
@@ -738,29 +737,73 @@ In the Known World, the shadow of the Vithurian Orchestra falls over every pract
 
 #### **Special Abilities**
 
-**Legend Lore.** Bards accumulate historical and regional knowledge as a professional function. The Bard's player may ask the GM for information about a significant person, place, item, or event. The GM provides accurate information proportional to how well-known the subject is and how long the Bard has had to gather accounts. This is not magical, but the result of actually knowing things.
+**Legend Lore.** Bards accumulate historical and regional knowledge as a professional function. The Bard's player may ask the GM for information about a significant person, place, item, or event. The GM provides accurate information proportional to how well-known the subject is and how long the Bard has had to gather accounts. This is not magical — it is the result of actually knowing things.
 
-**Inspire Competence.** Once per combat encounter, a Bard who spends a round performing grants a \+1 bonus to attack rolls and saving throws to all allies within 9 m who can hear and understand them. This lasts a number of rounds equal to the Bard's level.
+**Inspire Competence.** Once per combat encounter, a Bard who spends a round performing grants a +1 bonus to attack rolls and saving throws to all allies within 9 m who can hear and understand them. This lasts a number of rounds equal to the Bard's level.
 
 **Bardic Charm.** Bards receive a bonus to all Charisma-based reaction checks equal to half their level, rounded down. Social encounters with neutral or friendly NPCs start one step more favorably than they otherwise would.
 
-**Spellcasting.** From the 2nd level, Bards access a small pool of Wizard spells. They do not use grimoires — their spells are learned through oral tradition and practical observation, retained in memory rather than written formula. A Bard's spell selection is limited to spells with verbal or somatic components; those requiring expensive material components are inaccessible unless the Bard can acquire the materials independently. Spell progression is in Appendix A.
+**Spellcasting.** From the 2nd level, Bards access a small pool of Wizard spells. They do not use grimoires — their spells are learned through oral tradition and practical observation, retained in memory rather than written formula. A Bard's spell selection is limited to spells with verbal or somatic components; those requiring expensive material components are inaccessible unless the Bard can acquire the materials independently. Spell progression is in Table 3.12: Bard Spell Progression.
 
-Bards use material components for their wizard spells identically to Generalist Mages — full V \+ S \+ M dependency, no school-specific exemptions. Their knowledge is observational rather than architectural; understanding how a spell works in practice is not the same as understanding the sympathetic logic that makes the material anchor redundant. Expensive or specific components listed in spell descriptions remain inaccessible unless acquired independently.
+Bards use material components for their wizard spells identically to Generalist Mages — full V + S + M dependency, no school-specific exemptions. Their knowledge is observational rather than architectural; understanding how a spell works in practice is not the same as understanding the sympathetic logic that makes the material anchor redundant. Expensive or specific components listed in spell descriptions remain inaccessible unless acquired independently.
 
-**Thieving Skills.** Bards have access to a reduced set of Thieving skills: Pick Pockets, Hear Noise, Climb Walls, and Read Languages. These function identically to Thief skills but advance more slowly. Bards do not gain Backstab.
+**Thieving Skills.** Bards have access to a reduced set of Thieving skills: Pick Pockets, Hear Noise, Climb Walls, and Read Languages. These are modified by ancestry, Dexterity, and armor exactly as Thief skills are, but start from lower base scores and advance on a smaller points pool — see Table 3.11: Bardic Skills. Unlike Thieves, Bards may use Read Languages from 1st level. Bards do not gain Backstab.
 
 **Reputation and the Orchestra.** At the 10th level, the Bard's name is known beyond their immediate operational area. NPCs with access to bardic networks will have heard of them. At the GM's discretion, this may include agents of the Vithurian Orchestra, depending on what the Bard has actually done with their career.
 
-**Skill Points.** Bards start with 5 Skill Points (SPs) that can be used to purchase Combat and Non-Combat Skills. See chapters 7 and 8\.
-
----
+**Skill Points.** Bards start with 5 Skill Points (SPs) that can be used to purchase Combat and Non-Combat Skills. See chapters 7 and 8.
 
 ### **Table 3.10: Bard Advancement**
 
-| Level | XP | Hit Dice | Attack Bonus |
-| ----- | ----- | ----- | ----- |
-| 1 | 0 | 1d6 | \+0 |
-| 2 | 1,500 | 2d6 | \+0 |
-| 3 | 3,000 | 3d6 | \+1 |
-| 4 | 6,000 | 4d6 | 
+|  |  |  |  |
+| :-: | :-: | :-: | :-: |
+| **Level** | **XP** | **Hit Dice** | **Attack Bonus** |
+| 1 | 0 | 1d6 | +0 |
+| 2 | 1,250 | 2d6 | +0 |
+| 3 | 2,500 | 3d6 | +1 |
+| 4 | 5,000 | 4d6 | +1 |
+| 5 | 10,000 | 5d6 | +1 |
+| 6 | 20,000 | 6d6 | +2 |
+| 7 | 40,000 | 7d6 | +2 |
+| 8 | 70,000 | 8d6 | +2 |
+| 9 | 110,000 | 9d6 | +3 |
+| 10 | 160,000 | 10d6 | +3 |
+| 11+ | +220,000/level | +2 HP/level | +1 per 2 levels |
+
+### **Table 3.11: Bardic Skills**
+
+|  |  |
+| :-: | :-: |
+| **Skill** | **Base Score (1st Level)** |
+| Pick Pockets | 10% |
+| Hear Noise | 20% |
+| Climb Walls | 50% |
+| Read Languages | 5% |
+
+At 1st level, a Bard distributes 20 points among these four skills, added to the base scores above. At each level thereafter, the Bard receives 15 points to distribute. No skill may exceed 95%.
+
+### **Table 3.12: Bard Spell Progression**
+
+|  |  |  |  |  |  |  |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **Level** | **1** | **2** | **3** | **4** | **5** | **6** |
+| 1 | – | – | – | – | – | – |
+| 2 | 1 | – | – | – | – | – |
+| 3 | 2 | – | – | – | – | – |
+| 4 | 2 | 1 | – | – | – | – |
+| 5 | 3 | 1 | – | – | – | – |
+| 6 | 3 | 2 | – | – | – | – |
+| 7 | 3 | 2 | 1 | – | – | – |
+| 8 | 3 | 3 | 1 | – | – | – |
+| 9 | 3 | 3 | 2 | – | – | – |
+| 10 | 3 | 3 | 2 | 1 | – | – |
+| 11 | 3 | 3 | 3 | 1 | – | – |
+| 12 | 3 | 3 | 3 | 2 | – | – |
+| 13 | 3 | 3 | 3 | 2 | 1 | – |
+| 14 | 3 | 3 | 3 | 3 | 1 | – |
+| 15 | 3 | 3 | 3 | 3 | 2 | – |
+| 16 | 4 | 3 | 3 | 3 | 2 | 1 |
+| 17 | 4 | 4 | 3 | 3 | 3 | 1 |
+| 18 | 4 | 4 | 4 | 3 | 3 | 2 |
+| 19 | 4 | 4 | 4 | 4 | 4 | 2 |
+| 20 | 4 | 4 | 4 | 4 | 4 | 3 |
