@@ -135,7 +135,7 @@ Duskhold in Gwan'tor is the premier training ground for Boroite Paladins. Badaki
 
 #### **Special Abilities**
 
-**Lay on Hands.** Once per day, the Paladin may heal a number of hit points equal to twice their level. They may use this on themselves or on a willing recipient they touch.
+**Lay on Hands.** Once per day, the Paladin may restore a creature's hit points to its maximum. They may use this on themselves or on a willing recipient they touch.
 
 **Detect Evil.** At will, the Paladin may concentrate to sense evil intent or magical evil within 18 m. This requires one round of concentration and reveals presence, not identity or exact location.
 
@@ -550,7 +550,9 @@ In the Known World, a Cleric operating independently of their church is unusual 
 
 **Divine Spellcasting.** Clerics memorize and cast spells drawn from the Priest spell list. Spell slots are detailed in the Cleric Spell Progression table in Appendix A. Unlike Mages, Clerics do not maintain spellbooks — their prayers are addressed directly to their deity. Clerics also receive bonus spells based on Wisdom score, as detailed in Table 1.5.
 
-**Turn Undead.** Clerics can turn or destroy undead creatures by presenting their holy symbol. The Turn Undead table determines the result based on the Cleric's level and the undead creature's HD. Results range from the undead fleeing to instantaneous destruction. See Chapter 12: The Undead.
+**Turn Undead.** Clerics can turn or destroy undead creatures by presenting their holy symbol. The Turn Undead table determines the result based on the Cleric's level and the undead creature's HD. Results range from the undead fleeing to instantaneous destruction. See Chapter 9: Combat.
+
+**Ward.** A number of times per day equal to half the Cleric's level, rounded up (minimum 1), the Cleric may touch a creature and restore 1d6 HP, plus 1 per two Cleric levels. This costs no spell slot and requires no material component — it draws on the Cleric's own vitality and training, not on their faith's sphere access, so it works identically regardless of faith. Using Ward on a dying or unconscious creature also stabilizes them, in place of the normal stabilizing action described in Chapter 9\.
 
 **Deity Requirements.** A Cleric who acts against their deity's core principles loses all spellcasting ability until they atone in a manner prescribed by their faith. Unlike the Champion's Code, this atonement requires the intervention of a higher-ranking member of the clergy or, at the GM's discretion, a direct divine communication.
 
@@ -590,6 +592,62 @@ The default permitted weapons for Clerics are: club, footman's flail, horseman's
 | Druidic Tradition | \- | Druids follow their class weapon list regardless of tradition. See Druid class entry. |
 
 *The Faith of the Nine does not produce Clerics. Val'arian divine casters are Sorcerers; the Nine serve as patrons. See B02, Ch. 6\.*
+
+---
+
+#### **Cleric Sphere Access by Faith**
+
+Sphere access is granted by faith, exactly as weapon allowances are. A priest's major and minor access to the spheres defined in Chapter 15: Priest Spells is set entirely by the tables below, not by a generic class default. Faiths not listed here use the Unaffiliated & Minor Cult table.
+
+**Ilianism.** Ilianism has no denominations to divide access by, so the split runs along which Sister an Oracle's gift leans toward instead. An Oracle remains a single kind of priest serving one undivided community; the table below reflects personal attunement, not membership in a separate priesthood.
+
+| Sphere | Path of Ilya (creation) | Path of Wysla (chaos) | Path of Ayla (order) |
+| :---- | :---- | :---- | :---- |
+| Divination | Major (shared) | Major (shared) | Major (shared) |
+| Healing | Minor (shared) | Minor (shared) | Major |
+| Creation | Major | — | — |
+| Astral | Major | — | — |
+| Elemental | — | Major | — |
+| Weather | — | Major | — |
+| Charm | — | Minor | — |
+| Protection | — | — | Major |
+| Guardian | — | — | Minor |
+
+**Church of Tar'amaan.** Access follows the Church's existing hierarchy rather than inventing new categories. NPC Clerics only — see B02, Ch\. 6\.
+
+| Sphere | Confessor (Acolyte/High Regent) | Inquisitor | Solar Lord |
+| :---- | :---- | :---- | :---- |
+| Sun\* | Major (shared) | Major (shared) | Major (shared) |
+| Charm | Major | Minor | — |
+| Divination | Major | — | — |
+| Combat | — | Major | Major |
+| Protection | — | Major | Minor |
+| Guardian | — | — | Major |
+
+*\*Tar'amaanist Sun-sphere access excludes* Moonbeam*. The Church has no rite that calls on lunar light.*
+
+**Way of Boros.** Every Boroite Cleric shares the same access through 7th level. At 8th level — the same milestone at which a Ranger commits to the Warden or Scout path — a Boroite Cleric permanently chooses the Warrior path or the Artisan path, reflecting which expression of mastery their career has come to embody. A Cleric who has not yet reached 8th level, or who never formally commits, continues using the 1st–7th level column.
+
+| Sphere | 1st–7th level | Warrior (8th+) | Artisan (8th+) |
+| :---- | :---- | :---- | :---- |
+| Combat | Major | Major | Minor |
+| Protection | Major | Major | Minor |
+| Guardian | Minor | Minor | — |
+| Healing | Minor | Minor | Minor |
+| Creation | — | — | Major |
+
+**Unaffiliated & Minor Cult Clerics.** B02, Ch\. 6 allows Clerics to emerge from folk traditions and minor cults outside the three major faiths. These use the lean default below rather than the old assumption of broad access to nearly every sphere — a nameless folk cult should never out-cast Ilianism, the Church, or Boros.
+
+| Sphere | Access |
+| :---- | :---- |
+| Divination | Minor |
+| Protection | Minor |
+| Healing | Minor |
+| Guardian | Minor |
+
+The GM may reshape this table to fit a specific cult's character, within the same overall scope: one or two spheres, nothing at Major, and never Necromantic.
+
+**The Forbidden Sphere.** No faith grants Necromantic access — not Ilianism, not the Church of Tar'amaan, not Boros, not any minor cult. Ilianist tradition sometimes calls necromancy Wysla's shadow, but the framing extends no sanction; every tradition in the Known World forbids the practice with the same weight, for reasons none of their own theologians can fully articulate. A Cleric can still learn a Necromantic spell — no deity teaches it, so it must be found rather than prayed for, using the Spell Research rules in Chapter 13 without any faith's backing or resources. Casting it violates the caster's own faith the moment that faith learns of it, triggering the same loss of spellcasting described under Deity Requirements, regardless of which faith the caster belongs to. The sphere holds *Cure Disease* at 3rd level, then *Raise Dead* at 5th and *Resurrection* at 7th — the whole reason the practice persists despite universal condemnation.
 
 ---
 
