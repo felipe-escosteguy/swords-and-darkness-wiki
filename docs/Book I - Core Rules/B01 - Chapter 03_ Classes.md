@@ -613,6 +613,8 @@ Sphere access is granted by faith, exactly as weapon allowances are. A priest's 
 | Protection | — | — | Major |
 | Guardian | — | — | Minor |
 
+**Additional Minor Sphere.** Creation's and Astral's lowest spells sit at 3rd and 5th level respectively, which leaves an Ilya-path Oracle with little to actually pray for before mid-level play. To cover that gap, an Ilianist Cleric chooses one additional minor sphere at character creation, from: Animal, Charm, Combat, Guardian, or Plant. The choice is permanent. Creation, Elemental, Protection, Sun, and Weather are not on this list — each is reserved to the path or faith that already holds it at Major, and picking any of them here would either be redundant or quietly undo that exclusivity. Astral and Summoning are excluded for a different reason: neither sphere has a spell below 4th level, so a Minor pick there is permanently unusable. Necromantic remains forbidden regardless of this choice.
+
 **Church of Tar'amaan.** Access follows the Church's existing hierarchy rather than inventing new categories. NPC Clerics only — see B02, Ch\. 6\.
 
 | Sphere | Confessor (Acolyte/High Regent) | Inquisitor | Solar Lord |
